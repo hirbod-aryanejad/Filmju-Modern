@@ -76,7 +76,7 @@ public class active_user : Form
 	{
 		btn_resend.Visible = false;
 		timer1.Start();
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "resend_encode";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "resend_encode";
 		classes myclass = new classes();
 		string Args = "";
 		string Data = myclass.PostData(url, Args);
@@ -93,7 +93,7 @@ public class active_user : Form
 
 	private void SetEnCode(string code)
 	{
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "enable";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "enable";
 		classes myclass = new classes();
 		string Args = myclass.CreateArgs("encode", code);
 		string Data = myclass.PostData(url, Args);

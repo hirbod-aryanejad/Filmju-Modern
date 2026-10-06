@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\Downloads\\Filmju\\proj\\",
+  "WorkspaceRootPath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|h:\\downloads\\filmju\\proj\\filmju.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Program.cs",
+              "RelativeDocumentMoniker": "Filmju\\Program.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Program.cs",
+              "RelativeToolTip": "Filmju\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T11:44:14.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Filmju",
-              "DocumentMoniker": "H:\\Downloads\\Filmju\\proj\\Filmju.csproj",
+              "Title": "Filmju.csproj",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.csproj",
               "RelativeDocumentMoniker": "Filmju.csproj",
-              "ToolTip": "H:\\Downloads\\Filmju\\proj\\Filmju.csproj",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.csproj",
               "RelativeToolTip": "Filmju.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-10-06T11:21:01.824Z",
               "EditorCaption": ""

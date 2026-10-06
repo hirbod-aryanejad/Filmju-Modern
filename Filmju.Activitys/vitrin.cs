@@ -120,7 +120,7 @@ public class vitrin : Form
 			myImageList1.ColorDepth = ColorDepth.Depth16Bit;
 			myImageList_ns.ColorDepth = ColorDepth.Depth16Bit;
 			myImageList_ups.ColorDepth = ColorDepth.Depth16Bit;
-			string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "vitrin";
+			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "vitrin";
 			classes myclass = new classes();
 			string Args = "";
 			string Data = myclass.PostData(url, Args);

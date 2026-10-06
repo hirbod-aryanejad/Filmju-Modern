@@ -114,7 +114,7 @@ public class tiket_new : Form
 			ac_ul = "new_tiket";
 			TiketId = "";
 		}
-		string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + ac_ul;
+		string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + ac_ul;
 		classes myclass = new classes();
 		string Args1 = myclass.CreateArgs("tit", tit);
 		string Args2 = myclass.CreateArgs("des", des);

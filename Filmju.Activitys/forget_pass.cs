@@ -123,7 +123,7 @@ public class forget_pass : Form
 	{
 		btn_resend.Visible = false;
 		timer1.Start();
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "change_pass";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "change_pass";
 		classes myclass = new classes();
 		string Args1 = myclass.CreateArgs("step", step);
 		string Args2 = myclass.CreateArgs("code_forget", encode);

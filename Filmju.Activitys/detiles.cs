@@ -168,7 +168,7 @@ public class detiles : Form
 	{
 		try
 		{
-			string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "detials";
+			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "detials";
 			classes myclass = new classes();
 			string Args1 = myclass.CreateArgs("user_name", Global.user_name_config);
 			string Args2 = myclass.CreateArgs("token", Global.token_config);
@@ -448,7 +448,7 @@ public class detiles : Form
 
 	private void UpdateAcc()
 	{
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "login";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "login";
 		classes myclass = new classes();
 		string Data = myclass.PostData(url, "");
 		JArray all_array = JArray.Parse(Data);
@@ -548,7 +548,7 @@ public class detiles : Form
 		{
 			string action = "";
 			action = ((!Fav_State.Equals("T")) ? "new_faves" : "delete_faves");
-			string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + action;
+			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + action;
 			classes myclass = new classes();
 			string Args1 = myclass.CreateArgs("id", video_id);
 			string Args2 = Args1;

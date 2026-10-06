@@ -140,7 +140,7 @@ public class register : Form
 	private void PostData(string user_name, string pass, string name)
 	{
 		Global.user_name_config = user_name;
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "new";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "new";
 		classes myclass = new classes();
 		string Args1 = myclass.CreateArgs("name", name);
 		string Args2 = myclass.CreateArgs("pass", pass);

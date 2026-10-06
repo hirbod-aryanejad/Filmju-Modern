@@ -82,7 +82,7 @@ public class fave_list : Form
 			myImageList_serie.ColorDepth = ColorDepth.Depth16Bit;
 			myImageList_cinema.ImageSize = new Size(ac.ItemVideoImgSizeWidth, ac.ItemVideoImgSizeHeight);
 			myImageList_serie.ImageSize = new Size(ac.ItemVideoImgSizeWidth, ac.ItemVideoImgSizeHeight);
-			string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "show-faves";
+			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "show-faves";
 			classes myclass = new classes();
 			string Args = "";
 			string Data = myclass.PostData(url, Args);

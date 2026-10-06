@@ -128,7 +128,7 @@ public class login : Form
 	private void PostData(string user_name, string pass)
 	{
 		Global.user_name_config = user_name;
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "login";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "login";
 		classes myclass = new classes();
 		string Args2 = myclass.CreateArgs("pass", pass);
 		string Args3 = Args2;

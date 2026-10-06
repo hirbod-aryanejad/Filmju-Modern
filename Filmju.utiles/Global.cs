@@ -2,59 +2,28 @@ namespace Filmju.utiles;
 
 internal static class Global
 {
-	private static string _globalVar = "";
+	static string _globalVar2 = "";
+	static string _globalVar3 = "";
+	static string _globalVar4 = "";
+	static string _globalVar5 = "";
+	static string _globalVar6 = "";
+	static string _globalVar8 = "";
+	static string _globalVar12 = "";
+	static string _globalVar13 = "";
+	static string _globalVar14 = "";
+	static string _globalVar16 = "";
+	static string _globalVar17 = "";
+	static string _globalVar18 = "";
+	static string _globalVar19 = "";
+	static string _globalVar20 = "";
 
-	private static string _globalVar2 = "";
+    public static string CurrentURL = "http://downloadfilesdirectlinktest.ir";
+    public static string DefaultURL = "http://downloadfilesdirectlinktest.ir";
+    public static string AlternateURL = "http://raw.githubusercontent.com/irubibox/link/main/link-win.txt";
+    public static string loginURL = "/app/wiinap/users?key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&action=login";
+    public static string keyURL = "key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&";
 
-	private static string _globalVar3 = "";
-
-	private static string _globalVar4 = "";
-
-	private static string _globalVar5 = "";
-
-	private static string _globalVar6 = "";
-
-	private static string _globalVar7 = "";
-
-	private static string _globalVar8 = "";
-
-	private static string _globalVar9 = "";
-
-	private static string _globalVar10 = "";
-
-	private static string _globalVar11 = "";
-
-	private static string _globalVar12 = "";
-
-	private static string _globalVar13 = "";
-
-	private static string _globalVar14 = "";
-
-	private static string _globalVar15 = "";
-
-	private static string _globalVar16 = "";
-
-	private static string _globalVar17 = "";
-
-	private static string _globalVar18 = "";
-
-	private static string _globalVar19 = "";
-
-	private static string _globalVar20 = "";
-
-	public static string GlobalVar
-	{
-		get
-		{
-			return _globalVar;
-		}
-		set
-		{
-			_globalVar = value;
-		}
-	}
-
-	public static string Body_f
+    public static string Body_f
 	{
 		get
 		{
@@ -102,79 +71,7 @@ internal static class Global
 		}
 	}
 
-	public static string ULPdisjskfdlkf
-	{
-		get
-		{
-			return _globalVar6;
-		}
-		set
-		{
-			_globalVar6 = value;
-		}
-	}
-
-	public static string SLfhjdsucdsu
-	{
-		get
-		{
-			return _globalVar7;
-		}
-		set
-		{
-			_globalVar7 = value;
-		}
-	}
-
-	public static string Psdiuisdufscds
-	{
-		get
-		{
-			return _globalVar8;
-		}
-		set
-		{
-			_globalVar8 = value;
-		}
-	}
-
-	public static string DFoieriwpdpfsd
-	{
-		get
-		{
-			return _globalVar9;
-		}
-		set
-		{
-			_globalVar9 = value;
-		}
-	}
-
-	public static string ifodsicodisfs
-	{
-		get
-		{
-			return _globalVar10;
-		}
-		set
-		{
-			_globalVar10 = value;
-		}
-	}
-
-	public static string Hepdskcd
-	{
-		get
-		{
-			return _globalVar11;
-		}
-		set
-		{
-			_globalVar11 = value;
-		}
-	}
-
-	public static string LoginState
+    public static string LoginState
 	{
 		get
 		{
@@ -207,18 +104,6 @@ internal static class Global
 		set
 		{
 			_globalVar14 = value;
-		}
-	}
-
-	public static string stete_account
-	{
-		get
-		{
-			return _globalVar15;
-		}
-		set
-		{
-			_globalVar15 = value;
 		}
 	}
 

@@ -210,7 +210,7 @@ public class frm_comments : Form
 
 	private void SendComment(string text)
 	{
-		string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "send_comment";
+		string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "send_comment";
 		classes myclass = new classes();
 		string Args1 = myclass.CreateArgs("video_id", video_id);
 		string Args2 = myclass.CreateArgs("comment_des", text);
@@ -240,7 +240,7 @@ public class frm_comments : Form
 
 	private void SetDataMyComments()
 	{
-		string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + action;
+		string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + action;
 		classes myclass = new classes();
 		string Args = "";
 		string Data = myclass.PostData(url, Args);

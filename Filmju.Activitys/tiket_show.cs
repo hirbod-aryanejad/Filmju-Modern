@@ -65,7 +65,7 @@ public class tiket_show : Form
 		ImageList imgList = new ImageList();
 		imgList.ImageSize = new Size(1, itemHeight);
 		listView_tikets.SmallImageList = imgList;
-		string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "select_tiket";
+		string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "select_tiket";
 		classes myclass = new classes();
 		string Args1 = myclass.CreateArgs("id", TiketID);
 		string Data = myclass.PostData(url, Args1);

@@ -60,7 +60,7 @@ public class tiket_list : Form
 			ImageList imgList = new ImageList();
 			imgList.ImageSize = new Size(1, itemHeight);
 			listView_tikets.SmallImageList = imgList;
-			string url = Global.ULPdisjskfdlkf + ac.CheckDevice + Global.Psdiuisdufscds + ac.key5548112 + "show-tikets";
+			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "show-tikets";
 			classes myclass = new classes();
 			string Data = myclass.PostData(url, "");
 			JArray arr_links = JArray.Parse(Data);

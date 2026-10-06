@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Filmju.Activitys\active_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\buy_acc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\cinema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\detiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\fave_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\forget_pass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\frmGetPaths.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\frm_comments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\frm_loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\link_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\list_genre_country.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\main_activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\search_film.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\search_pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\select_player.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\serie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\show_dowload_link.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\show_filters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\tiket_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\tiket_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\tiket_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju.Activitys\vitrin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Filmju\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

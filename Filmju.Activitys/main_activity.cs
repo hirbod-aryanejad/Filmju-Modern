@@ -146,7 +146,7 @@ public class main_activity : Form
 		int n = rand.Next(500);
 		long timestamp = DateTime.Now.ToFileTime();
 		string LFid87dcisdcdyufd = "oxcusd" + n + "Scjsix" + timestamp + "PDcdsifudi";
-		string FontColor = ac.ColorSettings + FontSize;
+		string FontColor = "y87mdjsod" + FontSize;
 		string FontChange = FontColor + TabId;
 		return Global.Congigur = timestamp + Global.Body_f + FontChange + LFid87dcisdcdyufd;
 	}
@@ -825,7 +825,7 @@ public class main_activity : Form
 
 	private void UpdateAcc()
 	{
-		string url = Global.ULPdisjskfdlkf + ac.FontEditor + Global.Psdiuisdufscds + ac.key5548112 + "login";
+		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "login";
 		classes myclass = new classes();
 		string Data = myclass.PostData(url, "");
 		JArray all_array = JArray.Parse(Data);
