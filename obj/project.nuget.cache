@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qpYrNxN8MQ0=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hirbod\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Hirbod\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
