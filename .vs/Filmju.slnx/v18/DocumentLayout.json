@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju\\splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju\\splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.utiles\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju.utiles\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.activitys\\buy_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju.activitys\\buy_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.utiles\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju.utiles\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.utiles\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju.utiles\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju\\splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju\\splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|solutionrelative:filmju\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DA9EDE2-5706-49DE-D35C-0D95EBCDBD1D}|Filmju.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju.activitys\\main_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,30 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "buy_acc.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.Activitys\\buy_acc.cs",
+              "RelativeDocumentMoniker": "Filmju.Activitys\\buy_acc.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.Activitys\\buy_acc.cs",
+              "RelativeToolTip": "Filmju.Activitys\\buy_acc.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAywDAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:56:37.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Program.cs",
+              "RelativeDocumentMoniker": "Filmju\\Program.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Program.cs",
+              "RelativeToolTip": "Filmju\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:55:25.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Splash.cs",
               "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Splash.cs",
               "RelativeDocumentMoniker": "Filmju\\Splash.cs",
               "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju\\Splash.cs",
               "RelativeToolTip": "Filmju\\Splash.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwJgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T11:45:59.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "classes.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.utiles\\classes.cs",
+              "RelativeDocumentMoniker": "Filmju.utiles\\classes.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.utiles\\classes.cs",
+              "RelativeToolTip": "Filmju.utiles\\classes.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:37:41.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.utiles\\AppConfig.cs",
               "RelativeDocumentMoniker": "Filmju.utiles\\AppConfig.cs",
               "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.utiles\\AppConfig.cs",
               "RelativeToolTip": "Filmju.utiles\\AppConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T12:52:24.257Z",
               "EditorCaption": ""
@@ -62,20 +113,20 @@
               "RelativeDocumentMoniker": "Filmju.utiles\\Global.cs",
               "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.utiles\\Global.cs",
               "RelativeToolTip": "Filmju.utiles\\Global.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBcAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T12:42:20.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "main_activity.cs",
               "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.Activitys\\main_activity.cs",
               "RelativeDocumentMoniker": "Filmju.Activitys\\main_activity.cs",
               "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju.Activitys\\main_activity.cs",
               "RelativeToolTip": "Filmju.Activitys\\main_activity.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAApwJQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAMQCAAAAAAAAAAAgwM0CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T13:47:33.546Z",
               "EditorCaption": ""

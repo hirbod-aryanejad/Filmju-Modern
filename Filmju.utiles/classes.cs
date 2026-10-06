@@ -1,10 +1,11 @@
+using Filmju.Properties;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Filmju.Properties;
 
 namespace Filmju.utiles;
 
@@ -16,66 +17,65 @@ internal class classes
 		{
 			ServicePointManager.Expect100Continue = true;
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-			string Reqii = CreateArgs("body", Global.Congigur);
-			string font_size = CreateArgs("font_size", Settings.Default.FontSizeS);
-			string user_name = CreateArgs("user_name", Global.user_name_config);
-			string token = CreateArgs("token", Global.token_config);
-			string langueg = CreateArgs("langueg", Global.Langueg_Title_Movies);
-			string apname = CreateArgs("apname", "Fj");
-			args = args + "&" + Reqii;
-			args = args + "&" + font_size;
-			args = args + "&" + user_name;
-			args = args + "&" + token;
-			args = args + "&" + langueg;
-			args = args + "&" + apname;
-			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+            args += "&" + CreateArgs("body", Global.Congigur);
+            args += "&" + CreateArgs("font_size", Settings.Default.FontSizeS);
+            args += "&" + CreateArgs("user_name", Global.user_name_config);
+            args += "&" + CreateArgs("token", Global.token_config);
+            args += "&" + CreateArgs("langueg", Global.Langueg_Title_Movies);
+            args += "&" + CreateArgs("apname", "Fj");
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
 			byte[] data = Encoding.ASCII.GetBytes(args);
+
 			request.Method = "POST";
 			request.ContentType = "application/x-www-form-urlencoded";
 			request.ContentLength = data.Length;
+
 			using (Stream stream = request.GetRequestStream())
 			{
 				stream.Write(data, 0, data.Length);
 			}
+
 			HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-			return new StreamReader(response.GetResponseStream()).ReadToEnd();
-		}
+            using StreamReader reader = new StreamReader(response.GetResponseStream());
+
+            return reader.ReadToEnd();
+        }
 		catch (Exception)
 		{
 			return "Error";
 		}
 	}
 
-	public string CreateArgs(string title, string val)
+	public string CreateArgs(string title, string value)
 	{
-		return title + "=" + Uri.EscapeDataString(val);
-	}
+        return $"{title}={Uri.EscapeDataString(value)}";
+    }
 
-	public string GetPage(string url)
-	{
-		string Res = "";
-		try
-		{
-			using WebClient client = new WebClient();
-			Res = client.DownloadString(url);
-		}
-		catch (Exception)
-		{
-			Res = "Error";
-		}
-		return Res;
-	}
+    public string GetPage(string url)
+    {
+        try
+        {
+            using WebClient client = new WebClient();
+            return client.DownloadString(url);
+        }
+        catch (Exception)
+        {
+            return "Error";
+        }
+    }
 
-	public async Task<Image> LoadImageAsync(string url)
+    public async Task<Image> LoadImageAsync(string url)
 	{
-		int num = default;
-		_ = num;
-		_ = 0;
 		try
 		{
 			WebRequest request = WebRequest.Create(url);
+
 			using WebResponse response = await request.GetResponseAsync();
 			using Stream stream = response.GetResponseStream();
+
 			return Image.FromStream(stream);
 		}
 		catch (Exception)
