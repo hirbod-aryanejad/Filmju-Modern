@@ -120,7 +120,7 @@ public class vitrin : Form
 			myImageList1.ColorDepth = ColorDepth.Depth16Bit;
 			myImageList_ns.ColorDepth = ColorDepth.Depth16Bit;
 			myImageList_ups.ColorDepth = ColorDepth.Depth16Bit;
-			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "vitrin";
+			string url = Global.CurrentURL + ac.wiinapVll + Global.keyURL + ac.action_equal + "vitrin";
 			classes myclass = new classes();
 			string Args = "";
 			string Data = myclass.PostData(url, Args);
@@ -458,242 +458,310 @@ public class vitrin : Form
 
 	private void InitializeComponent()
 	{
-		this.components = new System.ComponentModel.Container();
-		System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Filmju.Activitys.vitrin));
-		this.panel_new_cinema = new System.Windows.Forms.Panel();
-		this.btn_more_new_movie = new System.Windows.Forms.Button();
-		this.listView_new_cinema = new System.Windows.Forms.ListView();
-		this.label_new_cinema = new System.Windows.Forms.Label();
-		this.label1 = new System.Windows.Forms.Label();
-		this.panel_des = new System.Windows.Forms.Panel();
-		this.panel_des_btns = new System.Windows.Forms.Panel();
-		this.btn_link = new System.Windows.Forms.Button();
-		this.btn_instagram = new System.Windows.Forms.Button();
-		this.btn_tlg_support = new System.Windows.Forms.Button();
-		this.btn_tlg_channel = new System.Windows.Forms.Button();
-		this.label_des = new System.Windows.Forms.Label();
-		this.panel_updated_serie = new System.Windows.Forms.Panel();
-		this.btn_more_updated_serie = new System.Windows.Forms.Button();
-		this.listView_updated_serie = new System.Windows.Forms.ListView();
-		this.label_updated_serie = new System.Windows.Forms.Label();
-		this.panel_new_serie = new System.Windows.Forms.Panel();
-		this.btn_more_new_serie = new System.Windows.Forms.Button();
-		this.listView_new_serie = new System.Windows.Forms.ListView();
-		this.label_new_serie = new System.Windows.Forms.Label();
-		this.timer1 = new System.Windows.Forms.Timer(this.components);
-		this.panel_new_cinema.SuspendLayout();
-		this.panel_des.SuspendLayout();
-		this.panel_des_btns.SuspendLayout();
-		this.panel_updated_serie.SuspendLayout();
-		this.panel_new_serie.SuspendLayout();
-		base.SuspendLayout();
-		this.panel_new_cinema.BackColor = System.Drawing.SystemColors.GrayText;
-		this.panel_new_cinema.Controls.Add(this.btn_more_new_movie);
-		this.panel_new_cinema.Controls.Add(this.listView_new_cinema);
-		this.panel_new_cinema.Controls.Add(this.label_new_cinema);
-		this.panel_new_cinema.Location = new System.Drawing.Point(14, 277);
-		this.panel_new_cinema.Name = "panel_new_cinema";
-		this.panel_new_cinema.Size = new System.Drawing.Size(677, 294);
-		this.panel_new_cinema.TabIndex = 2;
-		this.btn_more_new_movie.BackColor = System.Drawing.Color.Green;
-		this.btn_more_new_movie.Font = new System.Drawing.Font("Tahoma", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_more_new_movie.ForeColor = System.Drawing.Color.White;
-		this.btn_more_new_movie.Location = new System.Drawing.Point(16, 9);
-		this.btn_more_new_movie.Name = "btn_more_new_movie";
-		this.btn_more_new_movie.Size = new System.Drawing.Size(135, 30);
-		this.btn_more_new_movie.TabIndex = 4;
-		this.btn_more_new_movie.Text = "مشاهده بیشتر";
-		this.btn_more_new_movie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-		this.btn_more_new_movie.UseVisualStyleBackColor = false;
-		this.btn_more_new_movie.Click += new System.EventHandler(this.btn_more_new_movie_Click);
-		this.listView_new_cinema.BackColor = System.Drawing.Color.DarkSlateGray;
-		this.listView_new_cinema.Font = new System.Drawing.Font("Tahoma", 9.75f);
-		this.listView_new_cinema.ForeColor = System.Drawing.Color.White;
-		this.listView_new_cinema.Location = new System.Drawing.Point(16, 43);
-		this.listView_new_cinema.Name = "listView_new_cinema";
-		this.listView_new_cinema.Size = new System.Drawing.Size(649, 234);
-		this.listView_new_cinema.TabIndex = 3;
-		this.listView_new_cinema.UseCompatibleStateImageBehavior = false;
-		this.listView_new_cinema.ItemActivate += new System.EventHandler(this.listView_new_cinema_ItemActivate);
-		this.listView_new_cinema.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_new_cinema_MouseClick);
-		this.label_new_cinema.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.label_new_cinema.ForeColor = System.Drawing.Color.Yellow;
-		this.label_new_cinema.Location = new System.Drawing.Point(445, 16);
-		this.label_new_cinema.Name = "label_new_cinema";
-		this.label_new_cinema.Size = new System.Drawing.Size(220, 23);
-		this.label_new_cinema.TabIndex = 2;
-		this.label_new_cinema.Text = "سینمایی های";
-		this.label_new_cinema.TextAlign = System.Drawing.ContentAlignment.TopRight;
-		this.label1.AutoSize = true;
-		this.label1.Font = new System.Drawing.Font("Tahoma", 15.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.label1.ForeColor = System.Drawing.Color.Yellow;
-		this.label1.Location = new System.Drawing.Point(9, 6);
-		this.label1.Name = "label1";
-		this.label1.Size = new System.Drawing.Size(65, 25);
-		this.label1.TabIndex = 3;
-		this.label1.Text = "ویترین";
-		this.panel_des.BackColor = System.Drawing.Color.DarkSlateGray;
-		this.panel_des.Controls.Add(this.panel_des_btns);
-		this.panel_des.Controls.Add(this.label_des);
-		this.panel_des.Location = new System.Drawing.Point(13, 39);
-		this.panel_des.Name = "panel_des";
-		this.panel_des.Size = new System.Drawing.Size(740, 201);
-		this.panel_des.TabIndex = 4;
-		this.panel_des_btns.Controls.Add(this.btn_link);
-		this.panel_des_btns.Controls.Add(this.btn_instagram);
-		this.panel_des_btns.Controls.Add(this.btn_tlg_support);
-		this.panel_des_btns.Controls.Add(this.btn_tlg_channel);
-		this.panel_des_btns.Location = new System.Drawing.Point(110, 106);
-		this.panel_des_btns.Name = "panel_des_btns";
-		this.panel_des_btns.Size = new System.Drawing.Size(534, 92);
-		this.panel_des_btns.TabIndex = 4;
-		this.btn_link.BackColor = System.Drawing.Color.Green;
-		this.btn_link.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_link.ForeColor = System.Drawing.Color.White;
-		this.btn_link.Location = new System.Drawing.Point(170, 8);
-		this.btn_link.Name = "btn_link";
-		this.btn_link.Size = new System.Drawing.Size(191, 34);
-		this.btn_link.TabIndex = 8;
-		this.btn_link.Text = "ورود به لینک";
-		this.btn_link.UseVisualStyleBackColor = false;
-		this.btn_link.Visible = false;
-		this.btn_link.Click += new System.EventHandler(this.btn_link_Click);
-		this.btn_instagram.BackColor = System.Drawing.Color.FromArgb(192, 0, 0);
-		this.btn_instagram.Enabled = false;
-		this.btn_instagram.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_instagram.ForeColor = System.Drawing.Color.White;
-		this.btn_instagram.Location = new System.Drawing.Point(44, 49);
-		this.btn_instagram.Name = "btn_instagram";
-		this.btn_instagram.Size = new System.Drawing.Size(136, 34);
-		this.btn_instagram.TabIndex = 6;
-		this.btn_instagram.Text = "پیج اینستاگرام";
-		this.btn_instagram.UseVisualStyleBackColor = false;
-		this.btn_instagram.Click += new System.EventHandler(this.btn_instagram_Click);
-		this.btn_tlg_support.BackColor = System.Drawing.Color.FromArgb(192, 0, 0);
-		this.btn_tlg_support.Enabled = false;
-		this.btn_tlg_support.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_tlg_support.ForeColor = System.Drawing.Color.White;
-		this.btn_tlg_support.Location = new System.Drawing.Point(352, 49);
-		this.btn_tlg_support.Name = "btn_tlg_support";
-		this.btn_tlg_support.Size = new System.Drawing.Size(136, 34);
-		this.btn_tlg_support.TabIndex = 5;
-		this.btn_tlg_support.Text = "پشتیبان تلگرام";
-		this.btn_tlg_support.UseVisualStyleBackColor = false;
-		this.btn_tlg_support.Click += new System.EventHandler(this.btn_tlg_support_Click);
-		this.btn_tlg_channel.BackColor = System.Drawing.Color.FromArgb(192, 0, 0);
-		this.btn_tlg_channel.Enabled = false;
-		this.btn_tlg_channel.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_tlg_channel.ForeColor = System.Drawing.Color.White;
-		this.btn_tlg_channel.Location = new System.Drawing.Point(200, 49);
-		this.btn_tlg_channel.Name = "btn_tlg_channel";
-		this.btn_tlg_channel.Size = new System.Drawing.Size(133, 34);
-		this.btn_tlg_channel.TabIndex = 4;
-		this.btn_tlg_channel.Text = "کانال تلگرام";
-		this.btn_tlg_channel.UseVisualStyleBackColor = false;
-		this.btn_tlg_channel.Click += new System.EventHandler(this.btn_tlg_channel_Click);
-		this.label_des.Font = new System.Drawing.Font("Tahoma", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.label_des.ForeColor = System.Drawing.Color.White;
-		this.label_des.Location = new System.Drawing.Point(17, 15);
-		this.label_des.Name = "label_des";
-		this.label_des.Size = new System.Drawing.Size(706, 88);
-		this.label_des.TabIndex = 2;
-		this.label_des.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-		this.panel_updated_serie.BackColor = System.Drawing.SystemColors.GrayText;
-		this.panel_updated_serie.Controls.Add(this.btn_more_updated_serie);
-		this.panel_updated_serie.Controls.Add(this.listView_updated_serie);
-		this.panel_updated_serie.Controls.Add(this.label_updated_serie);
-		this.panel_updated_serie.Location = new System.Drawing.Point(14, 996);
-		this.panel_updated_serie.Name = "panel_updated_serie";
-		this.panel_updated_serie.Size = new System.Drawing.Size(677, 294);
-		this.panel_updated_serie.TabIndex = 5;
-		this.btn_more_updated_serie.BackColor = System.Drawing.Color.Green;
-		this.btn_more_updated_serie.Font = new System.Drawing.Font("Tahoma", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_more_updated_serie.ForeColor = System.Drawing.Color.White;
-		this.btn_more_updated_serie.Location = new System.Drawing.Point(16, 9);
-		this.btn_more_updated_serie.Name = "btn_more_updated_serie";
-		this.btn_more_updated_serie.Size = new System.Drawing.Size(135, 30);
-		this.btn_more_updated_serie.TabIndex = 4;
-		this.btn_more_updated_serie.Text = "مشاهده بیشتر";
-		this.btn_more_updated_serie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-		this.btn_more_updated_serie.UseVisualStyleBackColor = false;
-		this.btn_more_updated_serie.Click += new System.EventHandler(this.btn_more_updated_serie_Click);
-		this.listView_updated_serie.BackColor = System.Drawing.Color.DarkSlateGray;
-		this.listView_updated_serie.Font = new System.Drawing.Font("Tahoma", 9.75f);
-		this.listView_updated_serie.ForeColor = System.Drawing.Color.White;
-		this.listView_updated_serie.Location = new System.Drawing.Point(16, 43);
-		this.listView_updated_serie.Name = "listView_updated_serie";
-		this.listView_updated_serie.Size = new System.Drawing.Size(649, 234);
-		this.listView_updated_serie.TabIndex = 3;
-		this.listView_updated_serie.UseCompatibleStateImageBehavior = false;
-		this.listView_updated_serie.ItemActivate += new System.EventHandler(this.listView_updated_serie_ItemActivate);
-		this.listView_updated_serie.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_updated_serie_MouseClick);
-		this.label_updated_serie.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.label_updated_serie.ForeColor = System.Drawing.Color.Yellow;
-		this.label_updated_serie.Location = new System.Drawing.Point(445, 16);
-		this.label_updated_serie.Name = "label_updated_serie";
-		this.label_updated_serie.Size = new System.Drawing.Size(220, 23);
-		this.label_updated_serie.TabIndex = 2;
-		this.label_updated_serie.Text = "سریال های بروز شده";
-		this.label_updated_serie.TextAlign = System.Drawing.ContentAlignment.TopRight;
-		this.panel_new_serie.BackColor = System.Drawing.SystemColors.GrayText;
-		this.panel_new_serie.Controls.Add(this.btn_more_new_serie);
-		this.panel_new_serie.Controls.Add(this.listView_new_serie);
-		this.panel_new_serie.Controls.Add(this.label_new_serie);
-		this.panel_new_serie.Location = new System.Drawing.Point(14, 633);
-		this.panel_new_serie.Name = "panel_new_serie";
-		this.panel_new_serie.Size = new System.Drawing.Size(677, 294);
-		this.panel_new_serie.TabIndex = 6;
-		this.btn_more_new_serie.BackColor = System.Drawing.Color.Green;
-		this.btn_more_new_serie.Font = new System.Drawing.Font("Tahoma", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.btn_more_new_serie.ForeColor = System.Drawing.Color.White;
-		this.btn_more_new_serie.Location = new System.Drawing.Point(16, 9);
-		this.btn_more_new_serie.Name = "btn_more_new_serie";
-		this.btn_more_new_serie.Size = new System.Drawing.Size(135, 30);
-		this.btn_more_new_serie.TabIndex = 4;
-		this.btn_more_new_serie.Text = "مشاهده بیشتر";
-		this.btn_more_new_serie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-		this.btn_more_new_serie.UseVisualStyleBackColor = false;
-		this.btn_more_new_serie.Click += new System.EventHandler(this.btn_more_new_serie_Click);
-		this.listView_new_serie.BackColor = System.Drawing.Color.DarkSlateGray;
-		this.listView_new_serie.Font = new System.Drawing.Font("Tahoma", 9.75f);
-		this.listView_new_serie.ForeColor = System.Drawing.Color.White;
-		this.listView_new_serie.Location = new System.Drawing.Point(16, 43);
-		this.listView_new_serie.Name = "listView_new_serie";
-		this.listView_new_serie.Size = new System.Drawing.Size(649, 234);
-		this.listView_new_serie.TabIndex = 3;
-		this.listView_new_serie.UseCompatibleStateImageBehavior = false;
-		this.listView_new_serie.ItemActivate += new System.EventHandler(this.listView_new_serie_ItemActivate);
-		this.listView_new_serie.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_new_serie_MouseClick);
-		this.label_new_serie.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		this.label_new_serie.ForeColor = System.Drawing.Color.Yellow;
-		this.label_new_serie.Location = new System.Drawing.Point(445, 16);
-		this.label_new_serie.Name = "label_new_serie";
-		this.label_new_serie.Size = new System.Drawing.Size(220, 23);
-		this.label_new_serie.TabIndex = 2;
-		this.label_new_serie.Text = "سریال های";
-		this.label_new_serie.TextAlign = System.Drawing.ContentAlignment.TopRight;
-		this.timer1.Interval = 1000;
-		this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-		base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		this.AutoScroll = true;
-		this.BackColor = System.Drawing.Color.FromArgb(0, 0, 64);
-		base.ClientSize = new System.Drawing.Size(802, 465);
-		base.Controls.Add(this.panel_new_serie);
-		base.Controls.Add(this.panel_updated_serie);
-		base.Controls.Add(this.panel_des);
-		base.Controls.Add(this.label1);
-		base.Controls.Add(this.panel_new_cinema);
-		base.Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-		base.Name = "vitrin";
-		this.Text = "vitrin";
-		base.Load += new System.EventHandler(this.vitrin_Load);
-		this.panel_new_cinema.ResumeLayout(false);
-		this.panel_des.ResumeLayout(false);
-		this.panel_des_btns.ResumeLayout(false);
-		this.panel_updated_serie.ResumeLayout(false);
-		this.panel_new_serie.ResumeLayout(false);
-		base.ResumeLayout(false);
-		base.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            this.panel_new_cinema = new System.Windows.Forms.Panel();
+            this.btn_more_new_movie = new System.Windows.Forms.Button();
+            this.listView_new_cinema = new System.Windows.Forms.ListView();
+            this.label_new_cinema = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel_des = new System.Windows.Forms.Panel();
+            this.panel_des_btns = new System.Windows.Forms.Panel();
+            this.btn_link = new System.Windows.Forms.Button();
+            this.btn_instagram = new System.Windows.Forms.Button();
+            this.btn_tlg_support = new System.Windows.Forms.Button();
+            this.btn_tlg_channel = new System.Windows.Forms.Button();
+            this.label_des = new System.Windows.Forms.Label();
+            this.panel_updated_serie = new System.Windows.Forms.Panel();
+            this.btn_more_updated_serie = new System.Windows.Forms.Button();
+            this.listView_updated_serie = new System.Windows.Forms.ListView();
+            this.label_updated_serie = new System.Windows.Forms.Label();
+            this.panel_new_serie = new System.Windows.Forms.Panel();
+            this.btn_more_new_serie = new System.Windows.Forms.Button();
+            this.listView_new_serie = new System.Windows.Forms.ListView();
+            this.label_new_serie = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel_new_cinema.SuspendLayout();
+            this.panel_des.SuspendLayout();
+            this.panel_des_btns.SuspendLayout();
+            this.panel_updated_serie.SuspendLayout();
+            this.panel_new_serie.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel_new_cinema
+            // 
+            this.panel_new_cinema.BackColor = System.Drawing.SystemColors.GrayText;
+            this.panel_new_cinema.Controls.Add(this.btn_more_new_movie);
+            this.panel_new_cinema.Controls.Add(this.listView_new_cinema);
+            this.panel_new_cinema.Controls.Add(this.label_new_cinema);
+            this.panel_new_cinema.Location = new System.Drawing.Point(14, 277);
+            this.panel_new_cinema.Name = "panel_new_cinema";
+            this.panel_new_cinema.Size = new System.Drawing.Size(677, 294);
+            this.panel_new_cinema.TabIndex = 2;
+            // 
+            // btn_more_new_movie
+            // 
+            this.btn_more_new_movie.BackColor = System.Drawing.Color.Green;
+            this.btn_more_new_movie.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_more_new_movie.ForeColor = System.Drawing.Color.White;
+            this.btn_more_new_movie.Location = new System.Drawing.Point(16, 9);
+            this.btn_more_new_movie.Name = "btn_more_new_movie";
+            this.btn_more_new_movie.Size = new System.Drawing.Size(135, 30);
+            this.btn_more_new_movie.TabIndex = 4;
+            this.btn_more_new_movie.Text = "مشاهده بیشتر";
+            this.btn_more_new_movie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_more_new_movie.UseVisualStyleBackColor = false;
+            this.btn_more_new_movie.Click += new System.EventHandler(this.btn_more_new_movie_Click);
+            // 
+            // listView_new_cinema
+            // 
+            this.listView_new_cinema.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.listView_new_cinema.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.listView_new_cinema.ForeColor = System.Drawing.Color.White;
+            this.listView_new_cinema.HideSelection = false;
+            this.listView_new_cinema.Location = new System.Drawing.Point(16, 43);
+            this.listView_new_cinema.Name = "listView_new_cinema";
+            this.listView_new_cinema.Size = new System.Drawing.Size(649, 234);
+            this.listView_new_cinema.TabIndex = 3;
+            this.listView_new_cinema.UseCompatibleStateImageBehavior = false;
+            this.listView_new_cinema.ItemActivate += new System.EventHandler(this.listView_new_cinema_ItemActivate);
+            this.listView_new_cinema.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_new_cinema_MouseClick);
+            // 
+            // label_new_cinema
+            // 
+            this.label_new_cinema.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_new_cinema.ForeColor = System.Drawing.Color.Yellow;
+            this.label_new_cinema.Location = new System.Drawing.Point(445, 16);
+            this.label_new_cinema.Name = "label_new_cinema";
+            this.label_new_cinema.Size = new System.Drawing.Size(220, 23);
+            this.label_new_cinema.TabIndex = 2;
+            this.label_new_cinema.Text = "سینمایی های";
+            this.label_new_cinema.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.Location = new System.Drawing.Point(9, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "ویترین";
+            // 
+            // panel_des
+            // 
+            this.panel_des.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel_des.Controls.Add(this.panel_des_btns);
+            this.panel_des.Controls.Add(this.label_des);
+            this.panel_des.Location = new System.Drawing.Point(13, 39);
+            this.panel_des.Name = "panel_des";
+            this.panel_des.Size = new System.Drawing.Size(740, 201);
+            this.panel_des.TabIndex = 4;
+            // 
+            // panel_des_btns
+            // 
+            this.panel_des_btns.Controls.Add(this.btn_link);
+            this.panel_des_btns.Controls.Add(this.btn_instagram);
+            this.panel_des_btns.Controls.Add(this.btn_tlg_support);
+            this.panel_des_btns.Controls.Add(this.btn_tlg_channel);
+            this.panel_des_btns.Location = new System.Drawing.Point(110, 106);
+            this.panel_des_btns.Name = "panel_des_btns";
+            this.panel_des_btns.Size = new System.Drawing.Size(534, 92);
+            this.panel_des_btns.TabIndex = 4;
+            // 
+            // btn_link
+            // 
+            this.btn_link.BackColor = System.Drawing.Color.Green;
+            this.btn_link.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_link.ForeColor = System.Drawing.Color.White;
+            this.btn_link.Location = new System.Drawing.Point(170, 8);
+            this.btn_link.Name = "btn_link";
+            this.btn_link.Size = new System.Drawing.Size(191, 34);
+            this.btn_link.TabIndex = 8;
+            this.btn_link.Text = "ورود به لینک";
+            this.btn_link.UseVisualStyleBackColor = false;
+            this.btn_link.Visible = false;
+            this.btn_link.Click += new System.EventHandler(this.btn_link_Click);
+            // 
+            // btn_instagram
+            // 
+            this.btn_instagram.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_instagram.Enabled = false;
+            this.btn_instagram.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_instagram.ForeColor = System.Drawing.Color.White;
+            this.btn_instagram.Location = new System.Drawing.Point(44, 49);
+            this.btn_instagram.Name = "btn_instagram";
+            this.btn_instagram.Size = new System.Drawing.Size(136, 34);
+            this.btn_instagram.TabIndex = 6;
+            this.btn_instagram.Text = "پیج اینستاگرام";
+            this.btn_instagram.UseVisualStyleBackColor = false;
+            this.btn_instagram.Click += new System.EventHandler(this.btn_instagram_Click);
+            // 
+            // btn_tlg_support
+            // 
+            this.btn_tlg_support.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_tlg_support.Enabled = false;
+            this.btn_tlg_support.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tlg_support.ForeColor = System.Drawing.Color.White;
+            this.btn_tlg_support.Location = new System.Drawing.Point(352, 49);
+            this.btn_tlg_support.Name = "btn_tlg_support";
+            this.btn_tlg_support.Size = new System.Drawing.Size(136, 34);
+            this.btn_tlg_support.TabIndex = 5;
+            this.btn_tlg_support.Text = "پشتیبان تلگرام";
+            this.btn_tlg_support.UseVisualStyleBackColor = false;
+            this.btn_tlg_support.Click += new System.EventHandler(this.btn_tlg_support_Click);
+            // 
+            // btn_tlg_channel
+            // 
+            this.btn_tlg_channel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_tlg_channel.Enabled = false;
+            this.btn_tlg_channel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tlg_channel.ForeColor = System.Drawing.Color.White;
+            this.btn_tlg_channel.Location = new System.Drawing.Point(200, 49);
+            this.btn_tlg_channel.Name = "btn_tlg_channel";
+            this.btn_tlg_channel.Size = new System.Drawing.Size(133, 34);
+            this.btn_tlg_channel.TabIndex = 4;
+            this.btn_tlg_channel.Text = "کانال تلگرام";
+            this.btn_tlg_channel.UseVisualStyleBackColor = false;
+            this.btn_tlg_channel.Click += new System.EventHandler(this.btn_tlg_channel_Click);
+            // 
+            // label_des
+            // 
+            this.label_des.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_des.ForeColor = System.Drawing.Color.White;
+            this.label_des.Location = new System.Drawing.Point(17, 15);
+            this.label_des.Name = "label_des";
+            this.label_des.Size = new System.Drawing.Size(706, 88);
+            this.label_des.TabIndex = 2;
+            this.label_des.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel_updated_serie
+            // 
+            this.panel_updated_serie.BackColor = System.Drawing.SystemColors.GrayText;
+            this.panel_updated_serie.Controls.Add(this.btn_more_updated_serie);
+            this.panel_updated_serie.Controls.Add(this.listView_updated_serie);
+            this.panel_updated_serie.Controls.Add(this.label_updated_serie);
+            this.panel_updated_serie.Location = new System.Drawing.Point(14, 996);
+            this.panel_updated_serie.Name = "panel_updated_serie";
+            this.panel_updated_serie.Size = new System.Drawing.Size(677, 294);
+            this.panel_updated_serie.TabIndex = 5;
+            // 
+            // btn_more_updated_serie
+            // 
+            this.btn_more_updated_serie.BackColor = System.Drawing.Color.Green;
+            this.btn_more_updated_serie.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_more_updated_serie.ForeColor = System.Drawing.Color.White;
+            this.btn_more_updated_serie.Location = new System.Drawing.Point(16, 9);
+            this.btn_more_updated_serie.Name = "btn_more_updated_serie";
+            this.btn_more_updated_serie.Size = new System.Drawing.Size(135, 30);
+            this.btn_more_updated_serie.TabIndex = 4;
+            this.btn_more_updated_serie.Text = "مشاهده بیشتر";
+            this.btn_more_updated_serie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_more_updated_serie.UseVisualStyleBackColor = false;
+            this.btn_more_updated_serie.Click += new System.EventHandler(this.btn_more_updated_serie_Click);
+            // 
+            // listView_updated_serie
+            // 
+            this.listView_updated_serie.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.listView_updated_serie.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.listView_updated_serie.ForeColor = System.Drawing.Color.White;
+            this.listView_updated_serie.HideSelection = false;
+            this.listView_updated_serie.Location = new System.Drawing.Point(16, 43);
+            this.listView_updated_serie.Name = "listView_updated_serie";
+            this.listView_updated_serie.Size = new System.Drawing.Size(649, 234);
+            this.listView_updated_serie.TabIndex = 3;
+            this.listView_updated_serie.UseCompatibleStateImageBehavior = false;
+            this.listView_updated_serie.ItemActivate += new System.EventHandler(this.listView_updated_serie_ItemActivate);
+            this.listView_updated_serie.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_updated_serie_MouseClick);
+            // 
+            // label_updated_serie
+            // 
+            this.label_updated_serie.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_updated_serie.ForeColor = System.Drawing.Color.Yellow;
+            this.label_updated_serie.Location = new System.Drawing.Point(445, 16);
+            this.label_updated_serie.Name = "label_updated_serie";
+            this.label_updated_serie.Size = new System.Drawing.Size(220, 23);
+            this.label_updated_serie.TabIndex = 2;
+            this.label_updated_serie.Text = "سریال های بروز شده";
+            this.label_updated_serie.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // panel_new_serie
+            // 
+            this.panel_new_serie.BackColor = System.Drawing.SystemColors.GrayText;
+            this.panel_new_serie.Controls.Add(this.btn_more_new_serie);
+            this.panel_new_serie.Controls.Add(this.listView_new_serie);
+            this.panel_new_serie.Controls.Add(this.label_new_serie);
+            this.panel_new_serie.Location = new System.Drawing.Point(14, 633);
+            this.panel_new_serie.Name = "panel_new_serie";
+            this.panel_new_serie.Size = new System.Drawing.Size(677, 294);
+            this.panel_new_serie.TabIndex = 6;
+            // 
+            // btn_more_new_serie
+            // 
+            this.btn_more_new_serie.BackColor = System.Drawing.Color.Green;
+            this.btn_more_new_serie.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_more_new_serie.ForeColor = System.Drawing.Color.White;
+            this.btn_more_new_serie.Location = new System.Drawing.Point(16, 9);
+            this.btn_more_new_serie.Name = "btn_more_new_serie";
+            this.btn_more_new_serie.Size = new System.Drawing.Size(135, 30);
+            this.btn_more_new_serie.TabIndex = 4;
+            this.btn_more_new_serie.Text = "مشاهده بیشتر";
+            this.btn_more_new_serie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_more_new_serie.UseVisualStyleBackColor = false;
+            this.btn_more_new_serie.Click += new System.EventHandler(this.btn_more_new_serie_Click);
+            // 
+            // listView_new_serie
+            // 
+            this.listView_new_serie.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.listView_new_serie.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.listView_new_serie.ForeColor = System.Drawing.Color.White;
+            this.listView_new_serie.HideSelection = false;
+            this.listView_new_serie.Location = new System.Drawing.Point(16, 43);
+            this.listView_new_serie.Name = "listView_new_serie";
+            this.listView_new_serie.Size = new System.Drawing.Size(649, 234);
+            this.listView_new_serie.TabIndex = 3;
+            this.listView_new_serie.UseCompatibleStateImageBehavior = false;
+            this.listView_new_serie.ItemActivate += new System.EventHandler(this.listView_new_serie_ItemActivate);
+            this.listView_new_serie.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_new_serie_MouseClick);
+            // 
+            // label_new_serie
+            // 
+            this.label_new_serie.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_new_serie.ForeColor = System.Drawing.Color.Yellow;
+            this.label_new_serie.Location = new System.Drawing.Point(445, 16);
+            this.label_new_serie.Name = "label_new_serie";
+            this.label_new_serie.Size = new System.Drawing.Size(220, 23);
+            this.label_new_serie.TabIndex = 2;
+            this.label_new_serie.Text = "سریال های";
+            this.label_new_serie.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // vitrin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(802, 515);
+            this.Controls.Add(this.panel_new_serie);
+            this.Controls.Add(this.panel_updated_serie);
+            this.Controls.Add(this.panel_des);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel_new_cinema);
+            this.Name = "vitrin";
+            this.Text = "vitrin";
+            this.Load += new System.EventHandler(this.vitrin_Load);
+            this.panel_new_cinema.ResumeLayout(false);
+            this.panel_des.ResumeLayout(false);
+            this.panel_des_btns.ResumeLayout(false);
+            this.panel_updated_serie.ResumeLayout(false);
+            this.panel_new_serie.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 	}
 }

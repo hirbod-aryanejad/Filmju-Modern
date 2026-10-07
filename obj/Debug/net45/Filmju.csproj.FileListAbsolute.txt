@@ -61,7 +61,6 @@ D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Activitys.tike
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Activitys.tiket_new.resources
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Activitys.tiket_show.resources
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Activitys.vitrin.resources
-D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Properties.Resources.resources
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Splash.resources
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.csproj.GenerateResource.cache
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.GeneratedMSBuildEditorConfig.editorconfig
@@ -75,3 +74,4 @@ D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net45\Filmju.pdb
 D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net45\Microsoft.VisualBasic.PowerPacks.Vs.dll
 D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net45\Newtonsoft.Json.dll
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.csproj.Up2Date
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net45\Filmju.Properties.Filmju.Properties.Resources.resources

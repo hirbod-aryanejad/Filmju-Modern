@@ -198,7 +198,7 @@ public class serie : Form
 				page_load_nosub++;
 				page_load = page_load_nosub;
 			}
-			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "home_seryal&pageno=" + page_load;
+			string url = Global.CurrentURL + ac.wiinapVll + Global.keyURL + ac.action_equal + "home_seryal&pageno=" + page_load;
 			classes myclass = new classes();
 			string Args1 = myclass.CreateArgs("c", Select_Country);
 			string Args2 = myclass.CreateArgs("select_dub", Select_Dub);

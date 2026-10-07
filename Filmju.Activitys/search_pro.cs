@@ -192,7 +192,7 @@ public class search_pro : Form
 	{
 		try
 		{
-			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "Filter_Option";
+			string url = Global.CurrentURL + ac.wiinapVll + Global.keyURL + ac.action_equal + "Filter_Option";
 			classes myclass = new classes();
 			string Args = "";
 			string Data = myclass.PostData(url, Args);

@@ -100,7 +100,7 @@ public class search_film : Form
 			}
 			page_load_all++;
 			page_load = page_load_all;
-			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "search&pageno=" + page_load;
+			string url = Global.CurrentURL + ac.wiinapVll + Global.keyURL + ac.action_equal + "search&pageno=" + page_load;
 			classes myclass = new classes();
 			string Args1 = myclass.CreateArgs("q", SearchKey);
 			string Args2 = Args1;

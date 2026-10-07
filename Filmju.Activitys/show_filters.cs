@@ -141,7 +141,7 @@ public class show_filters : Form
 			}
 			page_load_all++;
 			page_load = page_load_all;
-			string url = Global.CurrentURL + ac.CheckDevice + Global.keyURL + ac.action_equal + "filter_search&pageno=" + page_load;
+			string url = Global.CurrentURL + ac.wiinapVll + Global.keyURL + ac.action_equal + "filter_search&pageno=" + page_load;
 			classes myclass = new classes();
 			string Args1 = myclass.CreateArgs("type", Selected_MvoviSerie);
 			string Args2 = myclass.CreateArgs("dub", Selected_DubSub);

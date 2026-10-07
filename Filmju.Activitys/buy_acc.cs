@@ -46,7 +46,7 @@ public class buy_acc : Form
 
 	private void GetData()
 	{
-		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "accountprice";
+		string url = Global.CurrentURL + ac.wiinapUsers + Global.keyURL + ac.action_equal + "accountprice";
 		classes myclass = new classes();
 		string Args = "";
 		string Data = myclass.PostData(url, Args);

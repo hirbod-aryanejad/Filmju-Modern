@@ -20,7 +20,7 @@ internal static class Global
     public static string CurrentURL = "http://downloadfilesdirectlinktest.ir";
     public static string DefaultURL = "http://downloadfilesdirectlinktest.ir";
     public static string AlternateURL = "http://raw.githubusercontent.com/irubibox/link/main/link-win.txt";
-    public static string loginURL = "/app/wiinap/users?key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&action=login";
+    public static string loginURL = "/app/wiinnap/users?key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&action=login";
     public static string keyURL = "key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&";
 
     public static string Body_f

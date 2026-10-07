@@ -143,9 +143,8 @@ public class main_activity : Form
 	private string ShowMessage(string msg)
 	{
 		Random rand = new Random();
-		int n = rand.Next(500);
 		long timestamp = DateTime.Now.ToFileTime();
-		string LFid87dcisdcdyufd = "oxcusd" + n + "Scjsix" + timestamp + "PDcdsifudi";
+		string LFid87dcisdcdyufd = $"oxcusd{rand.Next(500)}Scjsix{timestamp}PDcdsifudi";
 		string FontColor = "y87mdjsod" + FontSize;
 		string FontChange = FontColor + TabId;
 		return Global.Congigur = timestamp + Global.Body_f + FontChange + LFid87dcisdcdyufd;
@@ -825,7 +824,7 @@ public class main_activity : Form
 
 	private void UpdateAcc()
 	{
-		string url = Global.CurrentURL + ac.FontEditor + Global.keyURL + ac.action_equal + "login";
+		string url = Global.CurrentURL + ac.wiinapUsers + Global.keyURL + ac.action_equal + "login";
 		classes myclass = new classes();
 		string Data = myclass.PostData(url, "");
 		JArray all_array = JArray.Parse(Data);
@@ -927,258 +926,307 @@ public class main_activity : Form
 
 	private void InitializeComponent()
 	{
-		components = new System.ComponentModel.Container();
-		ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Filmju.Activitys.main_activity));
-		panel_left_menu = new System.Windows.Forms.Panel();
-		panel_user_info = new System.Windows.Forms.Panel();
-		btn_mycomment = new System.Windows.Forms.Button();
-		btn_loguout_acc = new System.Windows.Forms.Button();
-		btn_buyacc = new System.Windows.Forms.Button();
-		panel_login = new System.Windows.Forms.Panel();
-		btn_login = new System.Windows.Forms.Button();
-		btn_register = new System.Windows.Forms.Button();
-		btn_support = new System.Windows.Forms.Button();
-		btn_search_pro = new System.Windows.Forms.Button();
-		btn_search = new System.Windows.Forms.Button();
-		btn_fave = new System.Windows.Forms.Button();
-		btn_serie = new System.Windows.Forms.Button();
-		btn_cinema = new System.Windows.Forms.Button();
-		btn_vitrin = new System.Windows.Forms.Button();
-		panel_time_acc = new System.Windows.Forms.Panel();
-		label_acc_time = new System.Windows.Forms.Label();
-		label_name = new System.Windows.Forms.Label();
-		button2 = new System.Windows.Forms.Button();
-		timer1 = new System.Windows.Forms.Timer(this.components);
-		panel_left_menu.SuspendLayout();
-		panel_user_info.SuspendLayout();
-		panel_login.SuspendLayout();
-		panel_time_acc.SuspendLayout();
-		SuspendLayout();
-		panel_left_menu.BackColor = System.Drawing.Color.DimGray;
-		panel_left_menu.Controls.Add(this.panel_user_info);
-		panel_left_menu.Controls.Add(this.panel_login);
-		panel_left_menu.Controls.Add(this.btn_support);
-		panel_left_menu.Controls.Add(this.btn_search_pro);
-		panel_left_menu.Controls.Add(this.btn_search);
-		panel_left_menu.Controls.Add(this.btn_fave);
-		panel_left_menu.Controls.Add(this.btn_serie);
-		panel_left_menu.Controls.Add(this.btn_cinema);
-		panel_left_menu.Controls.Add(this.btn_vitrin);
-		panel_left_menu.Location = new System.Drawing.Point(12, 51);
-		panel_left_menu.Name = "panel_left_menu";
-		panel_left_menu.Size = new System.Drawing.Size(190, 613);
-		panel_left_menu.TabIndex = 7;
-		panel_user_info.BackColor = System.Drawing.Color.DimGray;
-		panel_user_info.Controls.Add(this.btn_mycomment);
-		panel_user_info.Controls.Add(this.btn_loguout_acc);
-		panel_user_info.Controls.Add(this.btn_buyacc);
-		panel_user_info.Location = new System.Drawing.Point(0, 464);
-		panel_user_info.Name = "panel_user_info";
-		panel_user_info.Size = new System.Drawing.Size(190, 142);
-		panel_user_info.TabIndex = 10;
-		panel_user_info.Visible = false;
-		btn_mycomment.BackColor = System.Drawing.Color.Teal;
-		btn_mycomment.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_mycomment.ForeColor = System.Drawing.Color.White;
-		btn_mycomment.Image = Filmju.Properties.Resources.ic_comment25;
-		btn_mycomment.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_mycomment.Location = new System.Drawing.Point(4, 97);
-		btn_mycomment.Name = "btn_mycomment";
-		btn_mycomment.Size = new System.Drawing.Size(180, 42);
-		btn_mycomment.TabIndex = 10;
-		btn_mycomment.Text = "نظرات من";
-		btn_mycomment.UseVisualStyleBackColor = false;
-		btn_mycomment.Click += new System.EventHandler(this.btn_mycomment_Click_1);
-		btn_loguout_acc.BackColor = System.Drawing.Color.Teal;
-		btn_loguout_acc.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_loguout_acc.ForeColor = System.Drawing.Color.White;
-		btn_loguout_acc.Image = Filmju.Properties.Resources.ic_logout25;
-		btn_loguout_acc.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_loguout_acc.Location = new System.Drawing.Point(5, 50);
-		btn_loguout_acc.Name = "btn_loguout_acc";
-		btn_loguout_acc.Size = new System.Drawing.Size(180, 42);
-		btn_loguout_acc.TabIndex = 9;
-		btn_loguout_acc.Text = "خروج کاربر";
-		btn_loguout_acc.UseVisualStyleBackColor = false;
-		btn_loguout_acc.Click += new System.EventHandler(this.btn_loguout_acc_Click_1);
-		btn_buyacc.BackColor = System.Drawing.Color.Teal;
-		btn_buyacc.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_buyacc.ForeColor = System.Drawing.Color.White;
-		btn_buyacc.Image = Filmju.Properties.Resources.ic_wallet25;
-		btn_buyacc.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_buyacc.Location = new System.Drawing.Point(4, 3);
-		btn_buyacc.Name = "btn_buyacc";
-		btn_buyacc.Size = new System.Drawing.Size(180, 42);
-		btn_buyacc.TabIndex = 8;
-		btn_buyacc.Text = "خرید اشتراک";
-		btn_buyacc.UseVisualStyleBackColor = false;
-		btn_buyacc.Click += new System.EventHandler(this.btn_buyacc_Click_1);
-		panel_login.BackColor = System.Drawing.Color.DimGray;
-		panel_login.Controls.Add(this.btn_login);
-		panel_login.Controls.Add(this.btn_register);
-		panel_login.Location = new System.Drawing.Point(0, 359);
-		panel_login.Name = "panel_login";
-		panel_login.Size = new System.Drawing.Size(190, 99);
-		panel_login.TabIndex = 8;
-		panel_login.Visible = false;
-		btn_login.BackColor = System.Drawing.Color.Teal;
-		btn_login.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_login.ForeColor = System.Drawing.Color.White;
-		btn_login.Image = Filmju.Properties.Resources.looo25;
-		btn_login.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_login.Location = new System.Drawing.Point(4, 51);
-		btn_login.Name = "btn_login";
-		btn_login.Size = new System.Drawing.Size(180, 42);
-		btn_login.TabIndex = 9;
-		btn_login.Text = "ورود";
-		btn_login.UseVisualStyleBackColor = false;
-		btn_login.Click += new System.EventHandler(this.btn_login_Click);
-		btn_register.BackColor = System.Drawing.Color.Teal;
-		btn_register.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_register.ForeColor = System.Drawing.Color.White;
-		btn_register.Image = Filmju.Properties.Resources.sinup30;
-		btn_register.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_register.Location = new System.Drawing.Point(4, 3);
-		btn_register.Name = "btn_register";
-		btn_register.Size = new System.Drawing.Size(180, 42);
-		btn_register.TabIndex = 8;
-		btn_register.Text = "ثبت نام";
-		btn_register.UseVisualStyleBackColor = false;
-		btn_register.Click += new System.EventHandler(this.btn_register_Click);
-		btn_support.BackColor = System.Drawing.Color.Teal;
-		btn_support.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_support.ForeColor = System.Drawing.Color.White;
-		btn_support.Image = Filmju.Properties.Resources.ic_support25;
-		btn_support.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_support.Location = new System.Drawing.Point(4, 311);
-		btn_support.Name = "btn_support";
-		btn_support.Size = new System.Drawing.Size(180, 42);
-		btn_support.TabIndex = 7;
-		btn_support.Text = "پشتیبانی";
-		btn_support.UseVisualStyleBackColor = false;
-		btn_support.Click += new System.EventHandler(this.btn_support_Click);
-		btn_search_pro.BackColor = System.Drawing.Color.Teal;
-		btn_search_pro.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_search_pro.ForeColor = System.Drawing.Color.White;
-		btn_search_pro.Image = Filmju.Properties.Resources.search30;
-		btn_search_pro.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_search_pro.Location = new System.Drawing.Point(3, 265);
-		btn_search_pro.Name = "btn_search_pro";
-		btn_search_pro.Size = new System.Drawing.Size(180, 42);
-		btn_search_pro.TabIndex = 5;
-		btn_search_pro.Text = "جستجو پیشرفته\r\n";
-		btn_search_pro.UseVisualStyleBackColor = false;
-		btn_search_pro.Click += new System.EventHandler(this.btn_search_pro_Click);
-		btn_search.BackColor = System.Drawing.Color.Teal;
-		btn_search.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_search.ForeColor = System.Drawing.Color.White;
-		btn_search.Image = Filmju.Properties.Resources.search30;
-		btn_search.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_search.Location = new System.Drawing.Point(4, 217);
-		btn_search.Name = "btn_search";
-		btn_search.Size = new System.Drawing.Size(180, 42);
-		btn_search.TabIndex = 4;
-		btn_search.Text = "جستجو";
-		btn_search.UseVisualStyleBackColor = false;
-		btn_search.Click += new System.EventHandler(this.btn_search_Click);
-		btn_fave.BackColor = System.Drawing.Color.Teal;
-		btn_fave.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_fave.ForeColor = System.Drawing.Color.White;
-		btn_fave.Image = Filmju.Properties.Resources.star3030;
-		btn_fave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_fave.Location = new System.Drawing.Point(4, 169);
-		btn_fave.Name = "btn_fave";
-		btn_fave.Size = new System.Drawing.Size(180, 42);
-		btn_fave.TabIndex = 3;
-		btn_fave.Text = "علاقه مندی";
-		btn_fave.UseVisualStyleBackColor = false;
-		btn_fave.Click += new System.EventHandler(this.btn_fave_Click);
-		btn_serie.BackColor = System.Drawing.Color.Teal;
-		btn_serie.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_serie.ForeColor = System.Drawing.Color.White;
-		btn_serie.Image = Filmju.Properties.Resources.serie30;
-		btn_serie.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_serie.Location = new System.Drawing.Point(3, 120);
-		btn_serie.Name = "btn_serie";
-		btn_serie.Size = new System.Drawing.Size(181, 42);
-		btn_serie.TabIndex = 2;
-		btn_serie.Text = "سریال ها";
-		btn_serie.UseVisualStyleBackColor = false;
-		btn_serie.Click += new System.EventHandler(this.btn_serie_Click);
-		btn_cinema.BackColor = System.Drawing.Color.Teal;
-		btn_cinema.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_cinema.ForeColor = System.Drawing.Color.White;
-		btn_cinema.Image = Filmju.Properties.Resources.cinema30;
-		btn_cinema.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_cinema.Location = new System.Drawing.Point(3, 72);
-		btn_cinema.Name = "btn_cinema";
-		btn_cinema.Size = new System.Drawing.Size(181, 42);
-		btn_cinema.TabIndex = 1;
-		btn_cinema.Text = "سینمایی ها";
-		btn_cinema.UseVisualStyleBackColor = false;
-		btn_cinema.Click += new System.EventHandler(this.btn_cinema_Click);
-		btn_vitrin.BackColor = System.Drawing.Color.MediumBlue;
-		btn_vitrin.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-		btn_vitrin.ForeColor = System.Drawing.Color.White;
-		btn_vitrin.Image = Filmju.Properties.Resources.vitrin303030;
-		btn_vitrin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-		btn_vitrin.Location = new System.Drawing.Point(3, 24);
-		btn_vitrin.Name = "btn_vitrin";
-		btn_vitrin.Size = new System.Drawing.Size(180, 42);
-		btn_vitrin.TabIndex = 0;
-		btn_vitrin.Text = "ویترین";
-		btn_vitrin.UseVisualStyleBackColor = false;
-		btn_vitrin.Click += new System.EventHandler(this.btn_vitrin_Click);
-		panel_time_acc.BackColor = System.Drawing.Color.FromArgb(0, 64, 64);
-		panel_time_acc.Controls.Add(this.label_acc_time);
-		panel_time_acc.Controls.Add(this.label_name);
-		panel_time_acc.Location = new System.Drawing.Point(220, 7);
-		panel_time_acc.Name = "panel_time_acc";
-		panel_time_acc.Size = new System.Drawing.Size(753, 29);
-		panel_time_acc.TabIndex = 8;
-		panel_time_acc.Visible = false;
-		label_acc_time.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		label_acc_time.ForeColor = System.Drawing.Color.Yellow;
-		label_acc_time.Location = new System.Drawing.Point(16, 5);
-		label_acc_time.Name = "label_acc_time";
-		label_acc_time.Size = new System.Drawing.Size(321, 19);
-		label_acc_time.TabIndex = 1;
-		label_acc_time.Text = "00000";
-		label_name.Font = new System.Drawing.Font("Tahoma", 12f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-		label_name.ForeColor = System.Drawing.Color.Yellow;
-		label_name.Location = new System.Drawing.Point(361, 5);
-		label_name.Name = "label_name";
-		label_name.Size = new System.Drawing.Size(389, 19);
-		label_name.TabIndex = 0;
-		label_name.Text = "نام کاربر";
-		label_name.TextAlign = System.Drawing.ContentAlignment.TopRight;
-		button2.BackColor = System.Drawing.Color.Red;
-		button2.Image = (System.Drawing.Image)resources.GetObject("button2.Image");
-		button2.Location = new System.Drawing.Point(12, 3);
-		button2.Name = "button2";
-		button2.Size = new System.Drawing.Size(33, 33);
-		button2.TabIndex = 1;
-		button2.UseVisualStyleBackColor = false;
-		button2.Click += new System.EventHandler(this.button2_Click);
-		timer1.Enabled = true;
-		timer1.Interval = 5000;
-		timer1.Tick += new System.EventHandler(this.timer1_Tick);
-		AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		BackColor = System.Drawing.Color.Navy;
-		ClientSize = new System.Drawing.Size(1017, 741);
-		Controls.Add(this.panel_time_acc);
-		Controls.Add(this.panel_left_menu);
-		Controls.Add(this.button2);
-		Cursor = System.Windows.Forms.Cursors.Default;
-		Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-		Name = "main_activity";
-		StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-		Load += new System.EventHandler(this.main_activity_Load);
-		panel_left_menu.ResumeLayout(false);
-		panel_user_info.ResumeLayout(false);
-		panel_login.ResumeLayout(false);
-		panel_time_acc.ResumeLayout(false);
-		ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.panel_left_menu = new System.Windows.Forms.Panel();
+            this.panel_user_info = new System.Windows.Forms.Panel();
+            this.btn_mycomment = new System.Windows.Forms.Button();
+            this.btn_loguout_acc = new System.Windows.Forms.Button();
+            this.btn_buyacc = new System.Windows.Forms.Button();
+            this.panel_login = new System.Windows.Forms.Panel();
+            this.btn_login = new System.Windows.Forms.Button();
+            this.btn_register = new System.Windows.Forms.Button();
+            this.btn_support = new System.Windows.Forms.Button();
+            this.btn_search_pro = new System.Windows.Forms.Button();
+            this.btn_search = new System.Windows.Forms.Button();
+            this.btn_fave = new System.Windows.Forms.Button();
+            this.btn_serie = new System.Windows.Forms.Button();
+            this.btn_cinema = new System.Windows.Forms.Button();
+            this.btn_vitrin = new System.Windows.Forms.Button();
+            this.panel_time_acc = new System.Windows.Forms.Panel();
+            this.label_acc_time = new System.Windows.Forms.Label();
+            this.label_name = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel_left_menu.SuspendLayout();
+            this.panel_user_info.SuspendLayout();
+            this.panel_login.SuspendLayout();
+            this.panel_time_acc.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel_left_menu
+            // 
+            this.panel_left_menu.BackColor = System.Drawing.Color.DimGray;
+            this.panel_left_menu.Controls.Add(this.panel_user_info);
+            this.panel_left_menu.Controls.Add(this.panel_login);
+            this.panel_left_menu.Controls.Add(this.btn_support);
+            this.panel_left_menu.Controls.Add(this.btn_search_pro);
+            this.panel_left_menu.Controls.Add(this.btn_search);
+            this.panel_left_menu.Controls.Add(this.btn_fave);
+            this.panel_left_menu.Controls.Add(this.btn_serie);
+            this.panel_left_menu.Controls.Add(this.btn_cinema);
+            this.panel_left_menu.Controls.Add(this.btn_vitrin);
+            this.panel_left_menu.Location = new System.Drawing.Point(12, 51);
+            this.panel_left_menu.Name = "panel_left_menu";
+            this.panel_left_menu.Size = new System.Drawing.Size(190, 613);
+            this.panel_left_menu.TabIndex = 7;
+            // 
+            // panel_user_info
+            // 
+            this.panel_user_info.BackColor = System.Drawing.Color.DimGray;
+            this.panel_user_info.Controls.Add(this.btn_mycomment);
+            this.panel_user_info.Controls.Add(this.btn_loguout_acc);
+            this.panel_user_info.Controls.Add(this.btn_buyacc);
+            this.panel_user_info.Location = new System.Drawing.Point(0, 464);
+            this.panel_user_info.Name = "panel_user_info";
+            this.panel_user_info.Size = new System.Drawing.Size(190, 142);
+            this.panel_user_info.TabIndex = 10;
+            this.panel_user_info.Visible = false;
+            // 
+            // btn_mycomment
+            // 
+            this.btn_mycomment.BackColor = System.Drawing.Color.Teal;
+            this.btn_mycomment.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mycomment.ForeColor = System.Drawing.Color.White;
+            this.btn_mycomment.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_mycomment.Location = new System.Drawing.Point(4, 97);
+            this.btn_mycomment.Name = "btn_mycomment";
+            this.btn_mycomment.Size = new System.Drawing.Size(180, 42);
+            this.btn_mycomment.TabIndex = 10;
+            this.btn_mycomment.Text = "نظرات من";
+            this.btn_mycomment.UseVisualStyleBackColor = false;
+            this.btn_mycomment.Click += new System.EventHandler(this.btn_mycomment_Click_1);
+            // 
+            // btn_loguout_acc
+            // 
+            this.btn_loguout_acc.BackColor = System.Drawing.Color.Teal;
+            this.btn_loguout_acc.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_loguout_acc.ForeColor = System.Drawing.Color.White;
+            this.btn_loguout_acc.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_loguout_acc.Location = new System.Drawing.Point(5, 50);
+            this.btn_loguout_acc.Name = "btn_loguout_acc";
+            this.btn_loguout_acc.Size = new System.Drawing.Size(180, 42);
+            this.btn_loguout_acc.TabIndex = 9;
+            this.btn_loguout_acc.Text = "خروج کاربر";
+            this.btn_loguout_acc.UseVisualStyleBackColor = false;
+            this.btn_loguout_acc.Click += new System.EventHandler(this.btn_loguout_acc_Click_1);
+            // 
+            // btn_buyacc
+            // 
+            this.btn_buyacc.BackColor = System.Drawing.Color.Teal;
+            this.btn_buyacc.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buyacc.ForeColor = System.Drawing.Color.White;
+            this.btn_buyacc.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_buyacc.Location = new System.Drawing.Point(4, 3);
+            this.btn_buyacc.Name = "btn_buyacc";
+            this.btn_buyacc.Size = new System.Drawing.Size(180, 42);
+            this.btn_buyacc.TabIndex = 8;
+            this.btn_buyacc.Text = "خرید اشتراک";
+            this.btn_buyacc.UseVisualStyleBackColor = false;
+            this.btn_buyacc.Click += new System.EventHandler(this.btn_buyacc_Click_1);
+            // 
+            // panel_login
+            // 
+            this.panel_login.BackColor = System.Drawing.Color.DimGray;
+            this.panel_login.Controls.Add(this.btn_login);
+            this.panel_login.Controls.Add(this.btn_register);
+            this.panel_login.Location = new System.Drawing.Point(0, 359);
+            this.panel_login.Name = "panel_login";
+            this.panel_login.Size = new System.Drawing.Size(190, 99);
+            this.panel_login.TabIndex = 8;
+            this.panel_login.Visible = false;
+            // 
+            // btn_login
+            // 
+            this.btn_login.BackColor = System.Drawing.Color.Teal;
+            this.btn_login.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.ForeColor = System.Drawing.Color.White;
+            this.btn_login.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_login.Location = new System.Drawing.Point(4, 51);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(180, 42);
+            this.btn_login.TabIndex = 9;
+            this.btn_login.Text = "ورود";
+            this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            // 
+            // btn_register
+            // 
+            this.btn_register.BackColor = System.Drawing.Color.Teal;
+            this.btn_register.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_register.ForeColor = System.Drawing.Color.White;
+            this.btn_register.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_register.Location = new System.Drawing.Point(4, 3);
+            this.btn_register.Name = "btn_register";
+            this.btn_register.Size = new System.Drawing.Size(180, 42);
+            this.btn_register.TabIndex = 8;
+            this.btn_register.Text = "ثبت نام";
+            this.btn_register.UseVisualStyleBackColor = false;
+            this.btn_register.Click += new System.EventHandler(this.btn_register_Click);
+            // 
+            // btn_support
+            // 
+            this.btn_support.BackColor = System.Drawing.Color.Teal;
+            this.btn_support.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_support.ForeColor = System.Drawing.Color.White;
+            this.btn_support.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_support.Location = new System.Drawing.Point(4, 311);
+            this.btn_support.Name = "btn_support";
+            this.btn_support.Size = new System.Drawing.Size(180, 42);
+            this.btn_support.TabIndex = 7;
+            this.btn_support.Text = "پشتیبانی";
+            this.btn_support.UseVisualStyleBackColor = false;
+            this.btn_support.Click += new System.EventHandler(this.btn_support_Click);
+            // 
+            // btn_search_pro
+            // 
+            this.btn_search_pro.BackColor = System.Drawing.Color.Teal;
+            this.btn_search_pro.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search_pro.ForeColor = System.Drawing.Color.White;
+            this.btn_search_pro.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_search_pro.Location = new System.Drawing.Point(3, 265);
+            this.btn_search_pro.Name = "btn_search_pro";
+            this.btn_search_pro.Size = new System.Drawing.Size(180, 42);
+            this.btn_search_pro.TabIndex = 5;
+            this.btn_search_pro.Text = "جستجو پیشرفته\r\n";
+            this.btn_search_pro.UseVisualStyleBackColor = false;
+            this.btn_search_pro.Click += new System.EventHandler(this.btn_search_pro_Click);
+            // 
+            // btn_search
+            // 
+            this.btn_search.BackColor = System.Drawing.Color.Teal;
+            this.btn_search.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search.ForeColor = System.Drawing.Color.White;
+            this.btn_search.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_search.Location = new System.Drawing.Point(4, 217);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(180, 42);
+            this.btn_search.TabIndex = 4;
+            this.btn_search.Text = "جستجو";
+            this.btn_search.UseVisualStyleBackColor = false;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
+            // 
+            // btn_fave
+            // 
+            this.btn_fave.BackColor = System.Drawing.Color.Teal;
+            this.btn_fave.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fave.ForeColor = System.Drawing.Color.White;
+            this.btn_fave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_fave.Location = new System.Drawing.Point(4, 169);
+            this.btn_fave.Name = "btn_fave";
+            this.btn_fave.Size = new System.Drawing.Size(180, 42);
+            this.btn_fave.TabIndex = 3;
+            this.btn_fave.Text = "علاقه مندی";
+            this.btn_fave.UseVisualStyleBackColor = false;
+            this.btn_fave.Click += new System.EventHandler(this.btn_fave_Click);
+            // 
+            // btn_serie
+            // 
+            this.btn_serie.BackColor = System.Drawing.Color.Teal;
+            this.btn_serie.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_serie.ForeColor = System.Drawing.Color.White;
+            this.btn_serie.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_serie.Location = new System.Drawing.Point(3, 120);
+            this.btn_serie.Name = "btn_serie";
+            this.btn_serie.Size = new System.Drawing.Size(181, 42);
+            this.btn_serie.TabIndex = 2;
+            this.btn_serie.Text = "سریال ها";
+            this.btn_serie.UseVisualStyleBackColor = false;
+            this.btn_serie.Click += new System.EventHandler(this.btn_serie_Click);
+            // 
+            // btn_cinema
+            // 
+            this.btn_cinema.BackColor = System.Drawing.Color.Teal;
+            this.btn_cinema.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cinema.ForeColor = System.Drawing.Color.White;
+            this.btn_cinema.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_cinema.Location = new System.Drawing.Point(3, 72);
+            this.btn_cinema.Name = "btn_cinema";
+            this.btn_cinema.Size = new System.Drawing.Size(181, 42);
+            this.btn_cinema.TabIndex = 1;
+            this.btn_cinema.Text = "سینمایی ها";
+            this.btn_cinema.UseVisualStyleBackColor = false;
+            this.btn_cinema.Click += new System.EventHandler(this.btn_cinema_Click);
+            // 
+            // btn_vitrin
+            // 
+            this.btn_vitrin.BackColor = System.Drawing.Color.MediumBlue;
+            this.btn_vitrin.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vitrin.ForeColor = System.Drawing.Color.White;
+            this.btn_vitrin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_vitrin.Location = new System.Drawing.Point(3, 24);
+            this.btn_vitrin.Name = "btn_vitrin";
+            this.btn_vitrin.Size = new System.Drawing.Size(180, 42);
+            this.btn_vitrin.TabIndex = 0;
+            this.btn_vitrin.Text = "ویترین";
+            this.btn_vitrin.UseVisualStyleBackColor = false;
+            this.btn_vitrin.Click += new System.EventHandler(this.btn_vitrin_Click);
+            // 
+            // panel_time_acc
+            // 
+            this.panel_time_acc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel_time_acc.Controls.Add(this.label_acc_time);
+            this.panel_time_acc.Controls.Add(this.label_name);
+            this.panel_time_acc.Location = new System.Drawing.Point(220, 7);
+            this.panel_time_acc.Name = "panel_time_acc";
+            this.panel_time_acc.Size = new System.Drawing.Size(753, 29);
+            this.panel_time_acc.TabIndex = 8;
+            this.panel_time_acc.Visible = false;
+            // 
+            // label_acc_time
+            // 
+            this.label_acc_time.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_acc_time.ForeColor = System.Drawing.Color.Yellow;
+            this.label_acc_time.Location = new System.Drawing.Point(16, 5);
+            this.label_acc_time.Name = "label_acc_time";
+            this.label_acc_time.Size = new System.Drawing.Size(321, 19);
+            this.label_acc_time.TabIndex = 1;
+            this.label_acc_time.Text = "00000";
+            // 
+            // label_name
+            // 
+            this.label_name.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_name.ForeColor = System.Drawing.Color.Yellow;
+            this.label_name.Location = new System.Drawing.Point(361, 5);
+            this.label_name.Name = "label_name";
+            this.label_name.Size = new System.Drawing.Size(389, 19);
+            this.label_name.TabIndex = 0;
+            this.label_name.Text = "نام کاربر";
+            this.label_name.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(12, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(33, 33);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // main_activity
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Navy;
+            this.ClientSize = new System.Drawing.Size(1017, 741);
+            this.Controls.Add(this.panel_time_acc);
+            this.Controls.Add(this.panel_left_menu);
+            this.Controls.Add(this.button2);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Name = "main_activity";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.main_activity_Load);
+            this.panel_left_menu.ResumeLayout(false);
+            this.panel_user_info.ResumeLayout(false);
+            this.panel_login.ResumeLayout(false);
+            this.panel_time_acc.ResumeLayout(false);
+            this.ResumeLayout(false);
+
 	}
 }
