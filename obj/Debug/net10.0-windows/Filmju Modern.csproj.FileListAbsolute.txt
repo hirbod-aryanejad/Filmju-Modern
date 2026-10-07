@@ -1,0 +1,21 @@
+D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net10.0-windows\Filmju Modern.exe
+D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net10.0-windows\Filmju Modern.deps.json
+D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net10.0-windows\Filmju Modern.runtimeconfig.json
+D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net10.0-windows\Filmju Modern.dll
+D:\Projects\Programming\.NET\Filmju Modern\bin\Debug\net10.0-windows\Filmju Modern.pdb
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\App.g.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern_MarkupCompile.cache
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\MainWindow.baml
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.g.resources
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.AssemblyInfoInputs.cache
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.AssemblyInfo.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.csproj.CoreCompileInputs.cache
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.sourcelink.json
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.dll
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\refint\Filmju Modern.dll
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.pdb
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.genruntimeconfig.cache
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\ref\Filmju Modern.dll
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju M.7C1C0AB1.Up2Date
