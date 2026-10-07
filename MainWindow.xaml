@@ -55,7 +55,7 @@
                                 <Trigger Property="IsMouseOver"
                                          Value="True">
 
-                                    
+
                                     <Setter TargetName="ButtonBorder"
                                             Property="Background"
                                             Value="#1e202c"/>
@@ -130,7 +130,7 @@
         </Grid.Resources>
 
 
-        
+
         <!-- Sidebar -->
         <Border
             Grid.Column="0"
@@ -251,10 +251,8 @@
 
                     <Button Content="Home"
                 Style="{StaticResource SidebarButton}"/>
-
                     <Button Content="Favorites"
                 Style="{StaticResource SidebarButton}"/>
-
                     <Button Content="Settings"
                 Style="{StaticResource SidebarButton}"/>
 
@@ -264,7 +262,7 @@
                 <!-- Bottom of sidebar -->
                 <Button Grid.Row="1"
             Content="Logout"
-            Style="{StaticResource LogoutButton}" Margin="10,0,10,6"/>
+            Style="{StaticResource LogoutButton}" Margin="10,0,10,8"/>
 
             </Grid>
 
@@ -294,28 +292,14 @@
                                 <Grid Background="Transparent">
 
                                     <Track x:Name="PART_Track"
-                           IsDirectionReversed="True">
+                                        ViewportSize="NaN"
+                                        IsDirectionReversed="True" Margin="-8,0,9,0">
 
-                                        <Track.DecreaseRepeatButton>
-                                            <RepeatButton
-                                                Command="ScrollBar.PageUpCommand"
-                                                Background="Transparent"
-                                                BorderThickness="0"
-                                                IsTabStop="False">
-
-                                                <RepeatButton.Template>
-                                                    <ControlTemplate TargetType="RepeatButton">
-                                                        <Border Background="Transparent"/>
-                                                    </ControlTemplate>
-                                                </RepeatButton.Template>
-
-                                            </RepeatButton>
-                                        </Track.DecreaseRepeatButton>
 
                                         <Track.Thumb>
 
-                                            <Thumb MinHeight="40"
-                                                MaxHeight="50">
+                                            <Thumb Height="45
+                                                   " Margin="0,45,0,10">
 
                                                 <Thumb.Template>
 
@@ -332,7 +316,7 @@
 
                                                                 <Setter TargetName="ThumbBorder"
                                                                 Property="Background"
-                                                                Value="#806a6d85"/>
+                                                                Value="#f5ff63"/>
 
                                                             </Trigger>
 
@@ -345,14 +329,6 @@
                                             </Thumb>
 
                                         </Track.Thumb>
-
-                                        <Track.IncreaseRepeatButton>
-                                            <RepeatButton
-                                Command="ScrollBar.PageDownCommand"
-                                Background="Transparent"
-                                BorderThickness="0"
-                                IsTabStop="False"/>
-                                        </Track.IncreaseRepeatButton>
 
                                     </Track>
 
@@ -369,7 +345,7 @@
 
             <StackPanel>
 
-                <Border Height="350"
+                <Border Height="300"
                 Margin="30"
                 Background="DarkSlateGray"
                 CornerRadius="15">
@@ -383,10 +359,11 @@
                 </Border>
 
                 <TextBlock Text="New Movies"
+                   Foreground="DarkSlateGray"
                    FontSize="24"
                    Margin="30,10"/>
 
-                <Border Height="350"
+                <Border Height="300"
             Margin="30"
             Background="DarkSlateGray"
             CornerRadius="15">
@@ -399,24 +376,20 @@
 
                 </Border>
 
-                <TextBlock Text="New Movies"
-               FontSize="24"
-               Margin="30,10"/>
+                <TextBlock Text="New TV Shows"
+                    Foreground="DarkSlateGray"
+                    FontSize="24"
+                    Margin="30,10"/>
 
                 <Border Height="300"
             Margin="30"
             Background="Gray"
             CornerRadius="15"/>
 
-                <Border Height="300"
-            Margin="30"
-            Background="Gray"
-            CornerRadius="15"/>
-
-                <Border Height="300"
-            Margin="30"
-            Background="Gray"
-            CornerRadius="15"/>
+                <TextBlock Text="My Favorites"
+                    Foreground="DarkSlateGray"
+                    FontSize="24"
+                    Margin="30,10"/>
 
                 <Border Height="300"
             Margin="30"
@@ -426,14 +399,14 @@
             </StackPanel>
 
         </ScrollViewer>
-        
+
         <!-- Drag area -->
         <Border Grid.Row="0"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
                 Background="Transparent"
-                MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Margin="0,0,0,5"/>        
-        
+                MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Margin="0,0,0,5"/>
+
         <!-- Window controls -->
         <StackPanel Grid.Row="0"
                     Grid.Column="1"
@@ -441,25 +414,25 @@
                     HorizontalAlignment="Right">
 
             <Button Content="-"
-                    Width="45"
-                    Height="35"
+                    Width="50"
+                    Height="40"
                     Style="{StaticResource WindowButton}"
                     Click="MinimizeButton_Click"/>
 
             <Button Content="□"
-                    Width="45"
-                    Height="35"
+                    Width="50"
+                    Height="40"
                     Style="{StaticResource WindowButton}"
                     Click="MaximizeButton_Click"/>
 
             <Button Content="X"
-                    Width="45"
-                    Height="35"
+                    Width="50"
+                    Height="40"
                     Style="{StaticResource WindowCloseButton}"
                     Click="CloseButton_Click"/>
 
         </StackPanel>
-        
+
 
 
     </Grid>
