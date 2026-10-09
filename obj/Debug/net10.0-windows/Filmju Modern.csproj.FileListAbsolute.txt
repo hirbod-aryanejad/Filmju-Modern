@@ -19,3 +19,11 @@ D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Mode
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern.genruntimeconfig.cache
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\ref\Filmju Modern.dll
 D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju M.7C1C0AB1.Up2Date
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Sidebar.baml
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Sidebar.g.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Filmju Modern_MarkupCompile.lref
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Views\HomeView.baml
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Views\HomeView.g.cs
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Views\FavoritesView.baml
+D:\Projects\Programming\.NET\Filmju Modern\obj\Debug\net10.0-windows\Views\FavoritesView.g.cs

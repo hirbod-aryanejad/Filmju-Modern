@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\sidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:sidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\sidebar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:sidebar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FavoritesView.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\FavoritesView.xaml",
+              "RelativeDocumentMoniker": "Views\\FavoritesView.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\FavoritesView.xaml",
+              "RelativeToolTip": "Views\\FavoritesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T10:05:29.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:43:17.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sidebar.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeDocumentMoniker": "Sidebar.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeToolTip": "Sidebar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T09:50:43.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T09:37:58.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T09:35:49.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sidebar.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml.cs",
+              "RelativeDocumentMoniker": "Sidebar.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml.cs",
+              "RelativeToolTip": "Sidebar.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:50:47.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml.cs",
+              "RelativeToolTip": "Views\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:41:24.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T09:35:41.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
