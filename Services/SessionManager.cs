@@ -17,9 +17,10 @@ public class SessionManager
         _storage = new CredentialStorage();
     }
 
-    public async Task<bool> LoginAsync(string username, string token)
+
+    public async Task<bool> LoginAsync(string username, string password)
     {
-        UserSession? session = await _api.LoginAsync(username, token);
+        UserSession? session = await _api.LoginAsync(username, password);
 
         if (session == null || !session.IsLoggedIn)
         {
@@ -51,9 +52,16 @@ public class SessionManager
         if (credentials == null)
             return false;
 
-        return await LoginAsync(
-            credentials.Username,
-            credentials.Token);
+        UserSession? session = await _api.RestoreSessionAsync(credentials.Username, credentials.Token);
+
+        if (session == null || !session.IsLoggedIn)
+            return false;
+
+        CurrentSession = session;
+
+        _storage.Save(session.Username, session.Token);
+
+        return true;
     }
 
     public void Logout()

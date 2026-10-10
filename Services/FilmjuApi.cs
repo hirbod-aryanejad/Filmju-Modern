@@ -81,8 +81,7 @@ public class FilmjuApi
 
         if (string.IsNullOrWhiteSpace(serverUrl))
         {
-            throw new InvalidOperationException(
-                "The alternate server address was empty.");
+            throw new InvalidOperationException("The alternate server address was empty.");
         }
 
         _currentUrl = serverUrl.TrimEnd('/');
@@ -90,28 +89,29 @@ public class FilmjuApi
         return _currentUrl;
     }
 
-    public async Task<UserSession?> LoginAsync(string username, string token)
+    public async Task<UserSession?> LoginAsync(string username, string password)
     {
         _username = username;
-        _token = token;
 
-        string response;
-
-        try
+        var parameters = new Dictionary<string, string>
         {
-            response = await PostAsync(_currentUrl + LoginURL);
-        }
-        catch (HttpRequestException)
-        {
-            // Try the alternate server if the default server fails.
-            await GetAlternateServerAsync();
+            ["pass"] = password
+        };
 
-            response = await PostAsync(_currentUrl + LoginURL);
-        }
+        string response = await PostAsync(_currentUrl + LoginURL, parameters);
 
         return ParseLoginResponse(response);
     }
 
+    public async Task<UserSession?> RestoreSessionAsync(string username, string token)
+    {
+        _username = username;
+        _token = token;
+
+        string response = await PostAsync(_currentUrl + LoginURL);
+
+        return ParseLoginResponse(response);
+    }
 
     // 4. Private response parsing methods
 
@@ -124,8 +124,7 @@ public class FilmjuApi
         if (root.ValueKind != JsonValueKind.Array ||
             root.GetArrayLength() == 0)
         {
-            throw new JsonException(
-                "The login response was not a non-empty JSON array.");
+            throw new JsonException("The login response was not a non-empty JSON array.");
         }
 
         JsonElement userData = root[0];
@@ -145,7 +144,7 @@ public class FilmjuApi
 
         session.AccountState = ReadString("stete_account");
         session.Name = ReadString("name");
-        session.Salary = ReadString("tosal");
+        session.SubscriptionExpiryDate = ReadString("tosal");
         session.Token = ReadString("token");
         session.UserState = ReadString("state_user");
         session.Username = ReadString("user_name");

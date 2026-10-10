@@ -17,7 +17,7 @@ namespace Filmju_Modern.Services
         // User information returned by the server
         public string AccountState { get; set; } = "";
         public string Name { get; set; } = "";
-        public string Salary { get; set; } = "";
+        public string SubscriptionExpiryDate { get; set; } = "";
         public string UserState { get; set; } = "";
         public string LanguageTitleMovies { get; set; } = "";
 

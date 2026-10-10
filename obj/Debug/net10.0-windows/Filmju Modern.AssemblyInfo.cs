@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Filmju Modern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5e1472458af770b79cad57ae74cbf114de2ad2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e26e8da917b4920422a1cc2d19015c299f41c1b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Filmju Modern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Filmju Modern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
