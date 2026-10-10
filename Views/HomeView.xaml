@@ -1,140 +1,180 @@
 ﻿<UserControl x:Class="Filmju_Modern.Views.HomeView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" 
-             d:DesignHeight="700" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:Filmju_Modern.Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="700"
              d:DesignWidth="1010">
+
     <Grid>
-        <ScrollViewer Grid.Column="1"
-              VerticalScrollBarVisibility="Visible" Grid.Row="1">
+        <ScrollViewer VerticalScrollBarVisibility="Visible"
+                      HorizontalScrollBarVisibility="Disabled">
 
             <ScrollViewer.Resources>
                 <Style TargetType="ScrollBar">
-
                     <Setter Property="Width" Value="6"/>
-
-                    <Setter Property="Background"
-            Value="Transparent"/>
-
-                    <Setter Property="Foreground"
-            Value="#806a6d85"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Foreground" Value="#806a6d85"/>
 
                     <Setter Property="Template">
                         <Setter.Value>
-
                             <ControlTemplate TargetType="ScrollBar">
-
                                 <Grid Background="Transparent">
-
                                     <Track x:Name="PART_Track"
-                                        ViewportSize="NaN"
-                                        IsDirectionReversed="True" Margin="-8,0,9,0">
-
-
+                                           ViewportSize="NaN"
+                                           IsDirectionReversed="True"
+                                           Margin="-8,0,9,0">
                                         <Track.Thumb>
-
-                                            <Thumb Height="45
-                                                   " Margin="0,10,0,10">
-
+                                            <Thumb Height="45"
+                                                   Margin="0,10,0,10">
                                                 <Thumb.Template>
-
                                                     <ControlTemplate TargetType="Thumb">
-
                                                         <Border x:Name="ThumbBorder"
-                                                            Background="#406a6d85"
-                                                            CornerRadius="9"/>
+                                                                Background="#406a6d85"
+                                                                CornerRadius="9"/>
 
                                                         <ControlTemplate.Triggers>
-
                                                             <Trigger Property="IsMouseOver"
-                                                                Value="True">
-
+                                                                     Value="True">
                                                                 <Setter TargetName="ThumbBorder"
-                                                                Property="Background"
-                                                                Value="#f5ff63"/>
-
+                                                                        Property="Background"
+                                                                        Value="#f5ff63"/>
                                                             </Trigger>
-
                                                         </ControlTemplate.Triggers>
-
                                                     </ControlTemplate>
-
                                                 </Thumb.Template>
-
                                             </Thumb>
-
                                         </Track.Thumb>
-
                                     </Track>
-
                                 </Grid>
-
                             </ControlTemplate>
-
                         </Setter.Value>
                     </Setter>
-
                 </Style>
             </ScrollViewer.Resources>
 
-
             <StackPanel>
 
+                <!-- Featured banner: preserved for future use -->
                 <Border Height="300"
-                Margin="30"
-                Background="DarkSlateGray"
-                CornerRadius="15">
+                        Margin="30"
+                        Background="DarkSlateGray"
+                        CornerRadius="15">
 
                     <TextBlock Text="Featured Movie"
-                       Foreground="White"
-                       FontSize="30"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
-
+                               Foreground="White"
+                               FontSize="30"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
                 </Border>
 
-                <TextBlock Text="New Movies"
-                   Foreground="DarkSlateGray"
-                   FontSize="24"
-                   Margin="30,10"/>
+                <!-- Skeleton placeholders -->
+                <StackPanel x:Name="LoadingPanel"
+                            Margin="30,0">
 
-                <Border Height="300"
-            Margin="30"
-            Background="DarkSlateGray"
-            CornerRadius="15">
+                    <TextBlock Text="Recently Updated Series"
+                               Foreground="DarkSlateGray"
+                               FontSize="24"
+                               Margin="0,10"/>
 
-                    <TextBlock Text="Featured Movie"
-                   Foreground="White"
-                   FontSize="30"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                                   Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6"
+                                   Fill="#303030" Margin="0,0,12,0"/>
 
-                </Border>
+                    </StackPanel>
 
-                <TextBlock Text="New TV Shows"
-                    Foreground="DarkSlateGray"
-                    FontSize="24"
-                    Margin="30,10"/>
 
-                <Border Height="300"
-            Margin="30"
-            Background="Gray"
-            CornerRadius="15"/>
 
-                <TextBlock Text="My Favorites"
-                    Foreground="DarkSlateGray"
-                    FontSize="24"
-                    Margin="30,10"/>
+                    <TextBlock Text="New Movies"
 
-                <Border Height="300"
-            Margin="30"
-            Background="Gray"
-            CornerRadius="15"/>
+                               Foreground="DarkSlateGray"
+
+                               FontSize="24"
+
+                               Margin="0,20,0,10"/>
+
+
+
+                    <StackPanel Orientation="Horizontal">
+
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                             Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                             Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6"
+
+                                   Fill="#303030" Margin="0,0,12,0"/>
+
+                    </StackPanel>
+
+
+
+                    <TextBlock Text="New Series"
+
+                               Foreground="DarkSlateGray"
+
+                               FontSize="24"
+
+                               Margin="0,20,0,10"/>
+
+
+
+                    <StackPanel Orientation="Horizontal">
+
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6" 
+                            Fill="#303030" Margin="0,0,12,0"/>
+                        <Rectangle Width="130" Height="195" RadiusX="6" RadiusY="6"
+                                   Fill="#303030" Margin="0,0,12,0"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Actual movie sections -->
+                <ItemsControl x:Name="SectionsList" Margin="30,0" Visibility="Collapsed">
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <controls:MovieSection
+                                Title="{Binding Title}"
+                                Movies="{Binding Movies}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+
+                </ItemsControl>
 
             </StackPanel>
-
         </ScrollViewer>
     </Grid>
 </UserControl>
+

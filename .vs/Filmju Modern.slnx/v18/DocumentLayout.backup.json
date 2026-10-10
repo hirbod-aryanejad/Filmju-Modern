@@ -1,10 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju Modern\\",
+  "WorkspaceRootPath": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F784548-B25C-45A1-B9D1-A8C594B6123C}|Filmju Modern\\Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\filmju modern\\filmju modern\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F784548-B25C-45A1-B9D1-A8C594B6123C}|Filmju Modern\\Filmju Modern.csproj|solutionrelative:filmju modern\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\homeview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\homeview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\controls\\moviesection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:controls\\moviesection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\controls\\moviecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:controls\\moviecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\controls\\moviecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:controls\\moviecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\controls\\moviesection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:controls\\moviesection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\models\\moviesectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:models\\moviesectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\services\\filmjuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:services\\filmjuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\models\\movieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:models\\movieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\models\\homeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:models\\homeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\sidebar.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:sidebar.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\sidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:sidebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\sidebar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:sidebar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\services\\credentialstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:services\\credentialstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|d:\\projects\\programming\\.net\\filmju modern\\windowcontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E23C9CF-D0F6-DF87-2985-B0A7E34659E5}|Filmju Modern.csproj|solutionrelative:windowcontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +81,239 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 225,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju Modern\\Filmju Modern\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Filmju Modern\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Filmju Modern\\Filmju Modern\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Filmju Modern\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MovieSection.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieSection.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\MovieSection.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieSection.xaml.cs",
+              "RelativeToolTip": "Controls\\MovieSection.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T15:09:35.138Z",
+              "WhenOpened": "2026-10-10T20:59:05.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieCard.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieCard.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\MovieCard.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieCard.xaml.cs",
+              "RelativeToolTip": "Controls\\MovieCard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T20:57:34.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieCard.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieCard.xaml",
+              "RelativeDocumentMoniker": "Controls\\MovieCard.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieCard.xaml",
+              "RelativeToolTip": "Controls\\MovieCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T20:52:33.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieSection.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieSection.xaml",
+              "RelativeDocumentMoniker": "Controls\\MovieSection.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Controls\\MovieSection.xaml",
+              "RelativeToolTip": "Controls\\MovieSection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T20:58:44.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Views\\HomeView.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAASwF4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T21:03:55.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieSectionData.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\MovieSectionData.cs",
+              "RelativeDocumentMoniker": "Models\\MovieSectionData.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\MovieSectionData.cs",
+              "RelativeToolTip": "Models\\MovieSectionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T20:50:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilmjuApi.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Services\\FilmjuApi.cs",
+              "RelativeDocumentMoniker": "Services\\FilmjuApi.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Services\\FilmjuApi.cs",
+              "RelativeToolTip": "Services\\FilmjuApi.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T17:28:13.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml.cs",
+              "RelativeToolTip": "Views\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T21:03:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeResponse.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\HomeResponse.cs",
+              "RelativeDocumentMoniker": "Models\\HomeResponse.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\HomeResponse.cs",
+              "RelativeToolTip": "Models\\HomeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T20:49:48.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieItem.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\MovieItem.cs",
+              "RelativeDocumentMoniker": "Models\\MovieItem.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Models\\MovieItem.cs",
+              "RelativeToolTip": "Models\\MovieItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T20:47:43.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sidebar.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeDocumentMoniker": "Sidebar.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeToolTip": "Sidebar.xaml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwFcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T17:12:48.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvykAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:48:24.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T21:00:46.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Sidebar.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeDocumentMoniker": "Sidebar.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml",
+              "RelativeToolTip": "Sidebar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T17:11:47.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CredentialStorage.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Services\\CredentialStorage.cs",
+              "RelativeDocumentMoniker": "Services\\CredentialStorage.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Services\\CredentialStorage.cs",
+              "RelativeToolTip": "Services\\CredentialStorage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T17:22:57.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sidebar.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml.cs",
+              "RelativeDocumentMoniker": "Sidebar.xaml.cs",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\Sidebar.xaml.cs",
+              "RelativeToolTip": "Sidebar.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwD4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T17:11:59.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T16:47:21.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WindowControls.xaml",
+              "DocumentMoniker": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\WindowControls.xaml",
+              "RelativeDocumentMoniker": "WindowControls.xaml",
+              "ToolTip": "D:\\Projects\\Programming\\.NET\\Filmju Modern\\WindowControls.xaml",
+              "RelativeToolTip": "WindowControls.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-10T12:12:20.651Z",
               "EditorCaption": ""
             }
           ]

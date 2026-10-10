@@ -49,8 +49,7 @@ public class SessionManager
             return false;
         }
 
-        if (credentials == null)
-            return false;
+        if (credentials == null) return false;
 
         UserSession? session = await _api.RestoreSessionAsync(credentials.Username, credentials.Token);
 

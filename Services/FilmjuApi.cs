@@ -1,26 +1,18 @@
 ﻿using System.Net.Http;
 using System.Text.Json;
-
+using System.Threading.Tasks;
 
 namespace Filmju_Modern.Services;
 
 public class FilmjuApi
 {
     // 1. HTTP client and configuration
+    readonly HttpClient _httpClient = new();
 
-    private readonly HttpClient _httpClient = new();
-
-    private string _currentUrl = DefaultURL;
-
-    private const string DefaultURL = "http://downloadfilesdirectlinktest.ir";
-    private const string AlternateURL = "http://raw.githubusercontent.com/irubibox/link/main/link-win.txt";
-
-    private const string LoginURL = "/app/wiinnap/users?key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&action=login";
-
-    private const string KeyURL = "key=a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp&";
-    private const string Vv1URL = "/app/wiinnap/vv1?";
-    private const string UsersURL = "/app/wiinnap/users?";
-
+    string _currentUrl = DefaultURL;
+    const string DefaultURL = "http://downloadfilesdirectlinktest.ir";
+    const string AlternateServer = "http://raw.githubusercontent.com/irubibox/link/main/link-win.txt";
+    const string key = "a7ed9scqfdcoixoec2yi4c0xb6nuqi4ssirp";
 
     // These values will be supplied by the app/session configuration.
     private string _auth = "";
@@ -76,7 +68,7 @@ public class FilmjuApi
 
     public async Task<string> GetAlternateServerAsync()
     {
-        string response = await GetAsync(AlternateURL);
+        string response = await GetAsync(AlternateServer);
         string serverUrl = response.Trim();
 
         if (string.IsNullOrWhiteSpace(serverUrl))
@@ -98,7 +90,7 @@ public class FilmjuApi
             ["pass"] = password
         };
 
-        string response = await PostAsync(_currentUrl + LoginURL, parameters);
+        string response = await PostAsync(BuildApiUrl(EndPoints.Users, "login"), parameters);
 
         return ParseLoginResponse(response);
     }
@@ -108,7 +100,7 @@ public class FilmjuApi
         _username = username;
         _token = token;
 
-        string response = await PostAsync(_currentUrl + LoginURL);
+        string response = await PostAsync(BuildApiUrl(EndPoints.Users, "login"));
 
         return ParseLoginResponse(response);
     }
@@ -151,5 +143,31 @@ public class FilmjuApi
         session.LanguageTitleMovies = ReadString("langueg_title_movies");
 
         return session;
+    }
+
+
+    public async Task<string> GetHomeDataAsync()
+    {
+        string url = BuildApiUrl(EndPoints.Vv1, "vitrin");
+        return await PostAsync(url);
+    }
+
+
+    private string BuildApiUrl(EndPoints endPoints, string action)
+    {
+        string endpoint = endPoints switch
+        {
+            EndPoints.Vv1 => "vv1",
+            EndPoints.Users => "users",
+            _ => throw new ArgumentOutOfRangeException(nameof(endPoints))
+        };
+
+        return $"{_currentUrl}/app/wiinnap/{endpoint}?key={key}&action={Uri.EscapeDataString(action)}";
+    }
+
+    enum EndPoints
+    {
+        Vv1,
+        Users
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Filmju_Modern.Services;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,7 +22,7 @@ namespace Filmju_Modern
         public event Action HomeClicked;
         public event Action FavoritesClicked;
         public event Action SettingsClicked;
-        public event Action LogoutClicked;
+        public event Action UserClicked;
 
 
         public Sidebar()
@@ -44,9 +45,32 @@ namespace Filmju_Modern
             SettingsClicked?.Invoke();
         }
 
-        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        private void UserButton_Click(object sender, RoutedEventArgs e)
         {
-            LogoutClicked?.Invoke();
+            UserClicked?.Invoke();
+        }
+
+        public void UpdateUserDisplay(UserSession? session)
+        {
+            if (session?.IsLoggedIn == true)
+            {
+                UserNameText.Text = string.IsNullOrWhiteSpace(session.Name)
+                    ? session.Username
+                    : session.Name;
+
+                UserExpiryText.Text =
+                    session.AccountState == "T"
+                        ? $"Expires: {MainWindow.ToEnglishDigits(session.SubscriptionExpiryDate)}"
+                        : "Subscription expired";
+
+                UserExpiryText.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                UserNameText.Text = "Not logged in";
+                UserExpiryText.Text = "";
+                UserExpiryText.Visibility = Visibility.Collapsed;
+            }
         }
     }
 }

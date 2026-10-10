@@ -19,116 +19,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Window button styles -->
-        <Grid.Resources>
 
-            <Style x:Key="WindowButton"
-                   TargetType="Button">
-
-                <Setter Property="Background"
-                        Value="Transparent"/>
-
-                <Setter Property="Foreground"
-                        Value="#708a8eaf"/>
-
-                <Setter Property="BorderThickness"
-                        Value="0"/>
-
-                <Setter Property="FontSize"
-                        Value="16"/>
-
-                <Setter Property="Template">
-                    <Setter.Value>
-
-                        <ControlTemplate TargetType="Button">
-
-                            <Border x:Name="ButtonBorder"
-                                    Background="{TemplateBinding Background}">
-
-                                <ContentPresenter
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"/>
-
-                            </Border>
-
-                            <ControlTemplate.Triggers>
-
-                                <Trigger Property="IsMouseOver"
-                                         Value="True">
-
-
-                                    <Setter TargetName="ButtonBorder"
-                                            Property="Background"
-                                            Value="#1e202c"/>
-
-                                    <Setter Property="Foreground"
-                                            Value="#f5ff63"/>
-
-                                </Trigger>
-
-                            </ControlTemplate.Triggers>
-
-                        </ControlTemplate>
-
-                    </Setter.Value>
-                </Setter>
-
-            </Style>
-
-            <!-- Close button -->
-            <Style x:Key="WindowCloseButton"
-                   TargetType="Button">
-
-                <Setter Property="Background"
-                        Value="Transparent"/>
-
-                <Setter Property="Foreground"
-                        Value="#808a8eaf"/>
-
-                <Setter Property="BorderThickness"
-                        Value="0"/>
-
-                <Setter Property="FontSize"
-                        Value="16"/>
-
-                <Setter Property="Template">
-                    <Setter.Value>
-
-                        <ControlTemplate TargetType="Button">
-
-                            <Border x:Name="CloseButtonBorder"
-                                    Background="{TemplateBinding Background}">
-
-                                <ContentPresenter
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"/>
-
-                            </Border>
-
-                            <ControlTemplate.Triggers>
-
-                                <Trigger Property="IsMouseOver"
-                                         Value="True">
-
-                                    <Setter TargetName="CloseButtonBorder"
-                                            Property="Background"
-                                            Value="#3a1515"/>
-
-                                    <Setter Property="Foreground"
-                                            Value="#ff5555"/>
-
-                                </Trigger>
-
-                            </ControlTemplate.Triggers>
-
-                        </ControlTemplate>
-
-                    </Setter.Value>
-                </Setter>
-
-            </Style>
-
-        </Grid.Resources>
 
 
 
@@ -151,31 +42,10 @@
                 Background="Transparent"
                 MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Margin="0,0,0,5"/>
 
-        <!-- Window controls -->
-        <StackPanel Grid.Row="0"
-                    Grid.Column="1"
-                    Orientation="Horizontal"
-                    HorizontalAlignment="Right">
-
-            <Button Content="-"
-                    Width="50"
-                    Height="40"
-                    Style="{StaticResource WindowButton}"
-                    Click="MinimizeButton_Click"/>
-
-            <Button Content="□"
-                    Width="50"
-                    Height="40"
-                    Style="{StaticResource WindowButton}"
-                    Click="MaximizeButton_Click"/>
-
-            <Button Content="X"
-                    Width="50"
-                    Height="40"
-                    Style="{StaticResource WindowCloseButton}"
-                    Click="CloseButton_Click"/>
-
-        </StackPanel>
+        <!-- Window button styles -->
+        <controls:WindowControls
+            Grid.Column="1"
+            Grid.Row="0"/>
 
 
 
